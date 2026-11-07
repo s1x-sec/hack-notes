@@ -16,6 +16,13 @@ import sys, os, re, io
 
 IGNORE_DIRS = {"_TEMPLATES", "00 HOME", ".obsidian", ".git"}
 
+# Explicit aliases: wikilink text whose slug does not match the note filename.
+# Keys are slugify(link text); values are the target page slug.
+ALIAS_MAP = {
+    "metodología-host-header": "07-web-hacking/ataques/http-host-header/metodología",
+    "técnicas-host-header":    "07-web-hacking/ataques/http-host-header/técnicas",
+}
+
 def slug_seg(s):
     s = re.sub(r"\s", "-", s)
     s = s.replace("&", "-and-").replace("%", "-percent")
