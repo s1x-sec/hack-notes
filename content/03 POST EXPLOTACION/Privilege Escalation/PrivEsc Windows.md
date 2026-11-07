@@ -62,7 +62,7 @@ sc stop "NombreServicio"
 
 ## UAC Bypass (T1548.002)
 
-> Ver [[UAC Bypasses]] para técnicas específicas.
+> Ver [[03-post-explotacion/privilege-escalation/windows/uac-bypasses|UAC Bypasses]] para técnicas específicas.
 
 **Concepto:** Abusar de binarios legítimos de Windows que se auto-elevan silenciosamente (auto-elevate manifest) o que cargan componentes controlables por nosotros (DLL hijacking en contexto elevado).
 
