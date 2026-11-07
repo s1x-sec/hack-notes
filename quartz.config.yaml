@@ -2,7 +2,7 @@
 configuration:
   pageTitle: s1x hacking notes
   pageTitleSuffix: ""
-  enableSPA: true
+  enableSPA: false
   enablePopovers: true
   analytics:
     provider: plausible
@@ -13,6 +13,7 @@ configuration:
     - templates
     - .obsidian
     - _TEMPLATES
+    - "00 HOME"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
