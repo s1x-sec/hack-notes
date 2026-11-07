@@ -124,7 +124,7 @@ Log "Committed: $msg"
 
 $hasRemote = (git remote) -contains "origin"
 if ($hasRemote) {
-  git push origin HEAD 2>&1 | ForEach-Object { Log $_ }
+  git push origin HEAD                     # no 2>&1: native stderr would wrap as errors in PS 5.1
   if ($LASTEXITCODE -ne 0) { throw "git push failed" }
   Log "Pushed to origin."
 } else {

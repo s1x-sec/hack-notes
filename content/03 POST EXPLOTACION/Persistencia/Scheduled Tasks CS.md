@@ -11,7 +11,7 @@ tags: [persistence, cobalt-strike, scheduled-tasks]
 beacon> schtaskscreate \Beacon XML CREATE
 ```
 
-Donde `XML` es el contenido XML de la tarea. Ver variante avanzada con BootTrigger en [[Scheduled Task (Advanced)]].
+Donde `XML` es el contenido XML de la tarea. Ver variante avanzada con BootTrigger en [[03-post-explotacion/persistencia/scheduled-task-(advanced)|Scheduled Task (Advanced)]].
 
 ## Tarea de ejemplo — login trigger
 
@@ -37,5 +37,5 @@ Donde `XML` es el contenido XML de la tarea. Ver variante avanzada con BootTrigg
 ```
 
 ## Ver también
-- [[Scheduled Task (Advanced)]]
+- [[03-post-explotacion/persistencia/scheduled-task-(advanced)|Scheduled Task (Advanced)]]
 - [[03-post-explotacion/persistencia/persistencia-avanzada/wmi/wmi-eventing|WMI Eventing]]

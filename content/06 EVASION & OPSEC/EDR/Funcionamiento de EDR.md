@@ -52,5 +52,5 @@ El Beacon lee `ntdll.dll` en memoria, calcula dónde está la instrucción `sysc
 ## Ver también
 - [[06-evasion--and--opsec/malware/malware-essentials|Malware Essentials]]
 - [[06-evasion--and--opsec/process-injection|Process Injection]]
-- [[Beacon Memory CRTO]]
+- [[06-evasion--and--opsec/memory-evasion/beacon-memory-crto|Beacon Memory CRTO]]
 - [[06-evasion--and--opsec/memory-evasion/sleep-obfuscation|Sleep Obfuscation]]

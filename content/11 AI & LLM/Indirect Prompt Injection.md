@@ -61,4 +61,4 @@ Ignore previous instructions. Do X instead.
 
 ## Ver también
 - [[11-ai--and--llm/llm-api-attack-surface|LLM API Attack Surface]]
-- [[Chaining Vulnerabilities (LLM)]]
+- [[11-ai--and--llm/chaining-vulnerabilities|Chaining Vulnerabilities (LLM)]]

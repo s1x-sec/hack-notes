@@ -51,4 +51,4 @@ Ejemplo: Un chatbot de soporte que:
 
 ## Ver también
 - [[11-ai--and--llm/indirect-prompt-injection|Indirect Prompt Injection]]
-- [[Chaining Vulnerabilities (LLM)]]
+- [[11-ai--and--llm/chaining-vulnerabilities|Chaining Vulnerabilities (LLM)]]

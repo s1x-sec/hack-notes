@@ -21,6 +21,8 @@ IGNORE_DIRS = {"_TEMPLATES", "00 HOME", ".obsidian", ".git"}
 ALIAS_MAP = {
     "metodología-host-header": "07-web-hacking/ataques/http-host-header/metodología",
     "técnicas-host-header":    "07-web-hacking/ataques/http-host-header/técnicas",
+    "agentes-llm":             "11-ai--and--llm/agentes",
+    "chaining-vulnerabilities-(llm)": "11-ai--and--llm/chaining-vulnerabilities",
 }
 
 def slug_seg(s):
