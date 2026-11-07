@@ -24,7 +24,7 @@ Esto significa que incluso si ofuscamos el script, la línea de comandos del pro
 
 Falsificar el proceso padre del beacon para parecer un proceso legítimo (ej: parecer que Word nos lanzó, no cmd.exe).
 
-→ Ver [[../Process Injection/PPID Spoofing]] para el workflow completo.
+→ Ver [[06-evasion--and--opsec/process-injection/ppid-spoofing|PPID Spoofing]] para el workflow completo.
 
 ---
 

@@ -50,5 +50,5 @@ Ejemplo: Un chatbot de soporte que:
 - Output filtering antes de mostrar al usuario
 
 ## Ver también
-- [[Indirect Prompt Injection]]
+- [[11-ai--and--llm/indirect-prompt-injection|Indirect Prompt Injection]]
 - [[Chaining Vulnerabilities (LLM)]]

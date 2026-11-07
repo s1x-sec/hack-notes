@@ -23,5 +23,5 @@ Invoke-RunasCs -Username svc_mssql -Password trustno1 "cmd /c C:\xampp\htdocs\up
 > Cuando tienes credenciales de otro usuario pero no puedes hacer un runas normal (sin GUI, sin sesión interactiva).
 
 ## Ver también
-- [[Pass the Hash]]
-- [[Token Impersonation]]
+- [[04-lateral-movement/user-impersonation/pass-the-hash|Pass the Hash]]
+- [[04-lateral-movement/user-impersonation/token-impersonation|Token Impersonation]]

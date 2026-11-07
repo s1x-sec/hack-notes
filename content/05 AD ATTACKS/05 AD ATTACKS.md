@@ -11,16 +11,16 @@ status: wip
 
 | Técnica | Nota |
 |---------|------|
-| Enumeración AD (nxc, PowerView) | [[Discovery/Enumeración AD]] |
-| LDAP Discovery | [[Discovery/LDAP Discovery]] |
-| LDAP Avanzado (Cobalt) | [[Discovery/LDAP Avanzado (Cobalt)]] |
-| BOFHound | [[Discovery/BOFHound]] |
-| Default Domain Policy | [[Discovery/Default Domain Policy]] |
-| Force Password Change | [[Discovery/Force Password Change]] |
-| Generic Write sobre Usuario | [[Discovery/Generic Write Sobre Usuario]] |
-| GenericAll sobre DC | [[Discovery/GenericAll DC]] |
-| ReadGMSAPassword | [[Discovery/ReadGMSAPassword]] |
-| RBCD (Discovery) | [[Discovery/Resourced Based Constrained Delegation]] |
+| Enumeración AD (nxc, PowerView) | [[05-ad-attacks/discovery/enumeración-ad|Enumeración AD]] |
+| LDAP Discovery | [[05-ad-attacks/discovery/ldap-discovery|LDAP Discovery]] |
+| LDAP Avanzado (Cobalt) | [[05-ad-attacks/discovery/ldap-avanzado-(cobalt)|LDAP Avanzado (Cobalt)]] |
+| BOFHound | [[05-ad-attacks/discovery/bofhound|BOFHound]] |
+| Default Domain Policy | [[05-ad-attacks/discovery/default-domain-policy|Default Domain Policy]] |
+| Force Password Change | [[05-ad-attacks/discovery/force-password-change|Force Password Change]] |
+| Generic Write sobre Usuario | [[05-ad-attacks/discovery/generic-write-sobre-usuario|Generic Write Sobre Usuario]] |
+| GenericAll sobre DC | [[05-ad-attacks/discovery/genericall-dc|GenericAll DC]] |
+| ReadGMSAPassword | [[05-ad-attacks/discovery/readgmsapassword|ReadGMSAPassword]] |
+| RBCD (Discovery) | [[05-ad-attacks/discovery/resourced-based-constrained-delegation|Resourced Based Constrained Delegation]] |
 
 ---
 
@@ -28,15 +28,15 @@ status: wip
 
 | Técnica | Nota |
 |---------|------|
-| Kerberos (teoría) | [[Kerberos/Kerberos]] |
-| Kerberoasting | [[Kerberos/Kerberoasting]] |
-| AS-REP Roasting | [[Kerberos/AS-REP Roasting]] |
-| Unconstrained Delegation | [[Kerberos/Unconstrained Delegation]] |
-| Constrained Delegation | [[Kerberos/Constrained Delegation]] |
-| RBCD | [[Kerberos/RBCD]] |
-| S4U2Self / S4U2Proxy | [[Kerberos/S4U2Self]] |
-| Lateral Movement Services (CS) | [[Kerberos/Lateral Movement Services (CS)]] |
-| Service Name Substitution (CS) | [[Kerberos/Service Name Substitution (CS)]] |
+| Kerberos (teoría) | [[05-ad-attacks/kerberos|Kerberos]] |
+| Kerberoasting | [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]] |
+| AS-REP Roasting | [[05-ad-attacks/kerberos/as-rep-roasting|AS-REP Roasting]] |
+| Unconstrained Delegation | [[05-ad-attacks/kerberos/unconstrained-delegation|Unconstrained Delegation]] |
+| Constrained Delegation | [[05-ad-attacks/kerberos/constrained-delegation|Constrained Delegation]] |
+| RBCD | [[05-ad-attacks/kerberos/rbcd|RBCD]] |
+| S4U2Self / S4U2Proxy | [[05-ad-attacks/kerberos/s4u2self|S4U2Self]] |
+| Lateral Movement Services (CS) | [[05-ad-attacks/kerberos/lateral-movement-services-(cs)|Lateral Movement Services (CS)]] |
+| Service Name Substitution (CS) | [[05-ad-attacks/kerberos/service-name-substitution-(cs)|Service Name Substitution (CS)]] |
 
 ---
 
@@ -44,7 +44,7 @@ status: wip
 
 | Técnica | Nota |
 |---------|------|
-| Kerberos Tickets (Rubeus, BOFs) | [[Credential Access/Kerberos Tickets]] |
+| Kerberos Tickets (Rubeus, BOFs) | [[05-ad-attacks/credential-access/kerberos-tickets|Kerberos Tickets]] |
 
 ---
 
@@ -52,9 +52,9 @@ status: wip
 
 | Técnica | Nota |
 |---------|------|
-| Envenenamiento Responder | [[Ataques/Envenenamiento Responder]] |
-| RunAS | [[Ataques/RunAS]] |
-| Silver Ticket | [[Ataques/Silver Ticket]] |
+| Envenenamiento Responder | [[05-ad-attacks/ataques/envenenamiento-responder|Envenenamiento Responder]] |
+| RunAS | [[05-ad-attacks/ataques/runas|RunAS]] |
+| Silver Ticket | [[05-ad-attacks/ataques/silver-ticket|Silver Ticket]] |
 
 ---
 
@@ -62,8 +62,8 @@ status: wip
 
 | Área | Nota |
 |------|------|
-| ADCS — ESC1-8 | [[ADCS/ADCS]] |
-| Forest & Domain Trusts | [[Trusts/Trusts]] |
+| ADCS — ESC1-8 | [[05-ad-attacks/adcs|ADCS]] |
+| Forest & Domain Trusts | [[05-ad-attacks/trusts|Trusts]] |
 
 ---
 
@@ -71,18 +71,18 @@ status: wip
 
 ```
 1. RECONOCIMIENTO OPSEC
-   └── [[Discovery/Enumeración AD]] → nxc, PowerView, ldapsearch
-   └── [[Discovery/BOFHound]] — sin SharpHound
+   └── [[05-ad-attacks/discovery/enumeración-ad|Enumeración AD]] → nxc, PowerView, ldapsearch
+   └── [[05-ad-attacks/discovery/bofhound|BOFHound]] — sin SharpHound
 
 2. CREDENTIAL ACCESS
-   ├── Cuenta servicio con SPN  → [[Kerberos/Kerberoasting]]
-   ├── Pre-auth deshabilitado   → [[Kerberos/AS-REP Roasting]]
-   └── Tickets en memoria       → [[Credential Access/Kerberos Tickets]]
+   ├── Cuenta servicio con SPN  → [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]
+   ├── Pre-auth deshabilitado   → [[05-ad-attacks/kerberos/as-rep-roasting|AS-REP Roasting]]
+   └── Tickets en memoria       → [[05-ad-attacks/credential-access/kerberos-tickets|Kerberos Tickets]]
 
 3. ESCALADA EN DOMINIO
    ├── Delegaciones             → Unconstrained / Constrained / RBCD
-   └── Certificados             → [[ADCS/ADCS]]
+   └── Certificados             → [[05-ad-attacks/adcs|ADCS]]
 
 4. MOVIMIENTO ENTRE DOMINIOS
-   └── [[Trusts/Trusts]]
+   └── [[05-ad-attacks/trusts|Trusts]]
 ```

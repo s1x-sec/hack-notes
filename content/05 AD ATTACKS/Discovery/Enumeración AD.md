@@ -47,7 +47,7 @@ nxc ldap 192.168.237.122 -u '' -p '' --users
 ```
 
 ## Ver también
-- [[LDAP Discovery]]
-- [[Kerberoasting]]
-- [[AS-REP Roasting]]
-- [[BOFHound]]
+- [[05-ad-attacks/discovery/ldap-discovery|LDAP Discovery]]
+- [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]
+- [[05-ad-attacks/kerberos/as-rep-roasting|AS-REP Roasting]]
+- [[05-ad-attacks/discovery/bofhound|BOFHound]]

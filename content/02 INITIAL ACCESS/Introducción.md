@@ -21,8 +21,8 @@ El acceso inicial en un ejercicio de Red Team puede encontrarse en:
 | **Decoy** | Archivo legítimo que se muestra a la víctima |
 
 ## Ver también
-- [[Delivery]]
-- [[Droppers]]
-- [[Payloads]]
-- [[Containers]]
-- [[Triggers]]
+- [[02-initial-access/técnicas/delivery|Delivery]]
+- [[02-initial-access/técnicas/droppers|Droppers]]
+- [[02-initial-access/payloads|Payloads]]
+- [[02-initial-access/containers|Containers]]
+- [[02-initial-access/triggers|Triggers]]

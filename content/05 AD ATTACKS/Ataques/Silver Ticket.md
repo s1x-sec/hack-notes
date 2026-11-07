@@ -97,5 +97,5 @@ impacket-mssqlclient -k nagoya.nagoya-industries.com
 ```
 
 ## Ver también
-- [[Kerberoasting]]
-- [[Constrained Delegation]]
+- [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]
+- [[05-ad-attacks/kerberos/constrained-delegation|Constrained Delegation]]

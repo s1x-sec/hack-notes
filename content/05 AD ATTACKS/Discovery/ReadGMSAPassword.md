@@ -36,5 +36,5 @@ python3 gMSADumper.py -u usuario -p password -d domain.local
 Repo: https://github.com/micahvandeusen/gMSADumper
 
 ## Ver también
-- [[Kerberoasting]]
-- [[OS Credential Dumping]]
+- [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]
+- [[03-post-explotacion/credential-access/os-credential-dumping|OS Credential Dumping]]

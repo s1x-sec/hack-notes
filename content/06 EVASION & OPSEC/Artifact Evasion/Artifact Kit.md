@@ -44,7 +44,7 @@ ThreatCheck.exe -f artifact64.exe -e Defender    # Motor específico
 4. Localizar la función equivalente en el código fuente (.c del Kit)
 ```
 
-→ Ver [[../../12 TOOLS & REFERENCIA/Ghidra/Ghidra]] para workflow detallado de Ghidra.
+→ Ver [[12-tools--and--referencia/ghidra|Ghidra]] para workflow detallado de Ghidra.
 
 ---
 

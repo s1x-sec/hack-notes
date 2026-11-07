@@ -91,6 +91,18 @@ Get-ChildItem -LiteralPath $Content -Recurse -File -Filter *.md | ForEach-Object
 }
 Log "Normalized: $fixedTables table(s), $fixedDataview dataview block(s)."
 
+# --- 3b. Fix wikilinks so Quartz resolves them to exact slugs --------------
+$py = (Get-Command python -ErrorAction SilentlyContinue).Source
+if (-not $py -and (Test-Path "C:\Users\rodri\AppData\Local\Programs\Python\Python313\python.exe")) {
+  $py = "C:\Users\rodri\AppData\Local\Programs\Python\Python313\python.exe"
+}
+if ($py) {
+  $linkScript = Join-Path $Repo "scripts\normalize_links.py"
+  & $py -I $linkScript $Content --write 2>&1 | ForEach-Object { Log $_ }
+} else {
+  Log "WARNING: python not found - wikilink normalization skipped."
+}
+
 # --- 4. Commit and push ----------------------------------------------------
 if ($NoPush) { Log "NoPush set - skipping git."; return }
 

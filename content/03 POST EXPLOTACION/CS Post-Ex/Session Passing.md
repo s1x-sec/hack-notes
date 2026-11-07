@@ -32,5 +32,5 @@ beacon> spawn x64 tcp-local
 ```
 
 ## Ver también
-- [[Pivoting con Cobalt]]
-- [[Lateral Movement Services (CS)]]
+- [[04-lateral-movement/tecnicas/pivoting-con-cobalt|Pivoting con Cobalt]]
+- [[05-ad-attacks/kerberos/lateral-movement-services-(cs)|Lateral Movement Services (CS)]]

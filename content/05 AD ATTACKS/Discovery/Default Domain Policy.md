@@ -36,5 +36,5 @@ net localgroup Administrators
 ```
 
 ## Ver también
-- [[BOFHound]]
-- [[GenericAll DC]]
+- [[05-ad-attacks/discovery/bofhound|BOFHound]]
+- [[05-ad-attacks/discovery/genericall-dc|GenericAll DC]]

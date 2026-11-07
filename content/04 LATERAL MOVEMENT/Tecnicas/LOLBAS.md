@@ -70,5 +70,5 @@ certutil.exe -decode payload.b64 payload.exe
 ## Referencias
 
 - [LOLBAS Project](https://lolbas-project.github.io/) — catálogo completo
-- [[Custom Techniques]] — SCShell como alternativa a MavInject
+- [[04-lateral-movement/tecnicas/custom-techniques|Custom Techniques]] — SCShell como alternativa a MavInject
 

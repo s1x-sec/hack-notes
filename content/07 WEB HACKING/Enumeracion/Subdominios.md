@@ -41,4 +41,4 @@ cat *.txt | sort -u > all_subs.txt
 
 ## Siguiente paso
 
-→ [[Filtrado]] — verificar cuáles responden
+→ [[07-web-hacking/enumeracion/filtrado|Filtrado]] — verificar cuáles responden

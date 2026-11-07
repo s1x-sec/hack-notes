@@ -30,5 +30,5 @@ claude mcp add recon-mcp --transport http http://localhost:8082/mcp
 > [!tip] Cambiar el puerto según la configuración del servidor (8080 ó 8082).
 
 ## Ver también
-- [[MCP SERVERS]]
-- [[Agentes]]
+- [[11-ai--and--llm/agentes/mcp-servers|MCP SERVERS]]
+- [[11-ai--and--llm/agentes|Agentes]]

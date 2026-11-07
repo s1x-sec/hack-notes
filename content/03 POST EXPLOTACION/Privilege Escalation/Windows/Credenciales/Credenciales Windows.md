@@ -6,6 +6,6 @@ tags: [privesc, windows, credentials]
 
 | Tipo | Nota |
 |------|------|
-| AutoLogon | [[Credenciales/AutoLogon]] |
-| Credential Manager | [[Credenciales/CredManager]] |
-| SAM & SYSTEM | [[Credenciales/SAM & SYSTEM]] |
+| AutoLogon | [[03-post-explotacion/privilege-escalation/windows/credenciales/autologon|AutoLogon]] |
+| Credential Manager | [[03-post-explotacion/privilege-escalation/windows/credenciales/credmanager|CredManager]] |
+| SAM & SYSTEM | [[03-post-explotacion/privilege-escalation/windows/credenciales/sam--and--system|SAM & SYSTEM]] |

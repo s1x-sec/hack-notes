@@ -6,7 +6,7 @@ tags: [privesc, windows, services]
 
 | Tipo | Nota |
 |------|------|
-| Weak Service Permissions | [[Servicios/Weak Windows Services]] |
+| Weak Service Permissions | [[03-post-explotacion/privilege-escalation/windows/servicios/weak-windows-services|Weak Windows Services]] |
 
 ## Revisión Manual de Servicios
 

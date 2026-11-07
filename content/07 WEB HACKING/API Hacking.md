@@ -40,7 +40,7 @@ curl https://target.com/api/v1/users -i
 # Token caducado → a veces sigue funcionando
 Authorization: Bearer eyJ...[token expirado]
 
-# JWT → [[OAuth y JWT]]
+# JWT → [[07-web-hacking/oauth-y-jwt|OAuth y JWT]]
 
 # API Key en diferentes sitios
 Header:  X-API-Key: key

@@ -71,5 +71,5 @@ beacon> krb_dump /user:rsteel /service:krbtgt
 
 ## Ver también
 
-- [[Pass The Ticket]] — inyectar tickets en contexto actual
-- [[OS Credential Dumping]] — dump de hashes NTLM / credenciales
+- [[04-lateral-movement/user-impersonation/pass-the-ticket|Pass The Ticket]] — inyectar tickets en contexto actual
+- [[03-post-explotacion/credential-access/os-credential-dumping|OS Credential Dumping]] — dump de hashes NTLM / credenciales

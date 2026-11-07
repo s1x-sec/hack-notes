@@ -38,4 +38,4 @@ Donde `XML` es el contenido XML de la tarea. Ver variante avanzada con BootTrigg
 
 ## Ver también
 - [[Scheduled Task (Advanced)]]
-- [[WMI Eventing]]
+- [[03-post-explotacion/persistencia/persistencia-avanzada/wmi/wmi-eventing|WMI Eventing]]

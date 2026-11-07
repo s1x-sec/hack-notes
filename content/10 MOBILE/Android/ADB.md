@@ -51,5 +51,5 @@ adb disconnect  # desconectar USB, ya va por red
 ```
 
 ## Ver también
-- [[Rootear Telefono]]
-- [[Teoría Android]]
+- [[10-mobile/android/rootear-telefono|Rootear Telefono]]
+- [[10-mobile/android/teoría-android|Teoría Android]]

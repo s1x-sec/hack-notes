@@ -26,5 +26,5 @@ Cuando un usuario del dominio intenta conectarse a un recurso que no existe, Res
 En la máquina HEIST se explota un envenenamiento tras descubrir que se pueden hacer peticiones hacia la máquina atacante. Al tratarse de un entorno AD, envenena la red con Responder al conectarse a sí mismo y se obtiene el hash NTLM.
 
 ## Ver también
-- [[Kerberoasting]]
-- [[AS-REP Roasting]]
+- [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]
+- [[05-ad-attacks/kerberos/as-rep-roasting|AS-REP Roasting]]

@@ -24,7 +24,7 @@ beacon> jump wmi        target  http   # WMI
 beacon> jump wmi64      target  http   # WMI 64-bit
 ```
 
-**Nota OPSEC:** Todos usan Logon Type 3 (Network) → no dejan creds en LSASS del destino, pero no tendrás TGT en la nueva sesión → [[Security Logon Types]].
+**Nota OPSEC:** Todos usan Logon Type 3 (Network) → no dejan creds en LSASS del destino, pero no tendrás TGT en la nueva sesión → [[04-lateral-movement/tecnicas/security-logon-types|Security Logon Types]].
 
 ---
 
@@ -62,7 +62,7 @@ PsExec crea un servicio temporal en el destino para ejecutar el payload:
 - Limpia (idealmente)
 
 > ⚠️ Event ID 7045 (nuevo servicio creado) — muy monitorizado.
-> Alternativa más sigilosa: [[Custom Techniques#SCShell]]
+> Alternativa más sigilosa: [[04-lateral-movement/tecnicas/custom-techniques#SCShell|Custom Techniques]]
 
 ---
 

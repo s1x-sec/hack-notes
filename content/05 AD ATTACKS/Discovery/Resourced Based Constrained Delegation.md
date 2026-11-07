@@ -48,6 +48,6 @@ impacket-psexec -k -no-pass RESOURCED.LOCAL/Administrator@RESOURCEDC.RESOURCED.L
 > CIFS es el protocolo necesario para SMB/PsExec — permite `impacket-psexec` que usa named pipes a través de SMB.
 
 ## Ver también
-- [[RBCD]]
-- [[Constrained Delegation]]
-- [[S4U2Self]]
+- [[05-ad-attacks/kerberos/rbcd|RBCD]]
+- [[05-ad-attacks/kerberos/constrained-delegation|Constrained Delegation]]
+- [[05-ad-attacks/kerberos/s4u2self|S4U2Self]]

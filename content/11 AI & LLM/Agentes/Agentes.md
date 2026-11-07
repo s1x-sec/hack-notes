@@ -9,7 +9,7 @@ tags: [ai, llm, agents, mcp, pentest-agents]
 
 | Recurso | URL |
 |---------|-----|
-| MCP Servers | [[MCP SERVERS]] |
+| MCP Servers | [[11-ai--and--llm/agentes/mcp-servers|MCP SERVERS]] |
 | Pentest Agents | https://github.com/rodrigo-pentest-agents |
 | Caveman Token Tracker | (token tracker interno) |
 
@@ -23,5 +23,5 @@ tags: [ai, llm, agents, mcp, pentest-agents]
 | Memory | Contexto persistente entre sesiones |
 
 ## Ver también
-- [[MCP SERVERS]]
-- [[mcp_recon]]
+- [[11-ai--and--llm/agentes/mcp-servers|MCP SERVERS]]
+- [[11-ai--and--llm/agentes/mcp-servers/mcp_recon|mcp_recon]]

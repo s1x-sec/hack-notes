@@ -49,6 +49,6 @@ beacon> inline-execute C:\Tools\BOF\example.o arg1 arg2
 > [!important] Los BOFs se ejecutan en el **hilo principal del Beacon** — no crean procesos ni threads nuevos. Máximo OPSEC.
 
 ## Ver también
-- [[Fork & Run Commands]]
-- [[Inline Commands (BOF)]]
-- [[API-Only Commands]]
+- [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/fork--and--run-commands|Fork & Run Commands]]
+- [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/inline-commands-(bof)|Inline Commands (BOF)]]
+- [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/api-only-commands|API-Only Commands]]

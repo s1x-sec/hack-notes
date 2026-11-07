@@ -33,6 +33,6 @@ ldapsearch -x -H ldap://192.168.1.10 -D "user@domain.com" -w password -b "DC=dom
 ```
 
 ## Ver también
-- [[389 LDAP]] (puerto)
-- [[BOFHound]]
-- [[Kerberoasting]]
+- [[12-tools--and--referencia/ports/389-ldap|389 LDAP]] (puerto)
+- [[05-ad-attacks/discovery/bofhound|BOFHound]]
+- [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]

@@ -142,4 +142,4 @@ app.listen(PORT, HOST, () => {
 
 ## Ver también
 
-→ [[mcp_recon]] — arranque e integración con Claude
+→ [[11-ai--and--llm/agentes/mcp-servers/mcp_recon|mcp_recon]] — arranque e integración con Claude

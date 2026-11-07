@@ -10,7 +10,7 @@ id   # ver a qué grupos pertenece el usuario
 
 | Grupo   | Nota |
 |---------|------|
-| Docker  | [[Grupos/Docker]] |
-| LXC/LXD | [[Grupos/LXC-LXD]] |
-| Disk    | [[Grupos/Disk]] |
-| ADM     | [[Grupos/ADM]] |
+| Docker  | [[03-post-explotacion/privilege-escalation/linux/grupos/docker|Docker]] |
+| LXC/LXD | [[03-post-explotacion/privilege-escalation/linux/grupos/lxc-lxd|LXC-LXD]] |
+| Disk    | [[03-post-explotacion/privilege-escalation/linux/grupos/disk|Disk]] |
+| ADM     | [[03-post-explotacion/privilege-escalation/linux/grupos/adm|ADM]] |

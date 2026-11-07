@@ -28,4 +28,4 @@ dalfox file urls_con_parametros.txt \
 
 ## Ver también
 
-- [[XSS]] — técnicas manuales
+- [[07-web-hacking/xss|XSS]] — técnicas manuales

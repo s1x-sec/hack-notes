@@ -18,5 +18,5 @@ tags: [mobile, android, theory]
 - Certificate pinning
 
 ## Ver también
-- [[ADB]]
-- [[Rootear Telefono]]
+- [[10-mobile/android/adb|ADB]]
+- [[10-mobile/android/rootear-telefono|Rootear Telefono]]

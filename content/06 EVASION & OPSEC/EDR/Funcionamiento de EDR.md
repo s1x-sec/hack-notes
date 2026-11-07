@@ -50,7 +50,7 @@ El Beacon lee `ntdll.dll` en memoria, calcula dónde está la instrucción `sysc
 - **Muy difícil de detectar**: la instrucción `syscall` se ejecuta desde la dirección legítima de `ntdll.dll`.
 
 ## Ver también
-- [[Malware Essentials]]
-- [[Process Injection]]
+- [[06-evasion--and--opsec/malware/malware-essentials|Malware Essentials]]
+- [[06-evasion--and--opsec/process-injection|Process Injection]]
 - [[Beacon Memory CRTO]]
-- [[Sleep Obfuscation]]
+- [[06-evasion--and--opsec/memory-evasion/sleep-obfuscation|Sleep Obfuscation]]

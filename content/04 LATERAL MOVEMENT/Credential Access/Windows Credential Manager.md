@@ -30,5 +30,5 @@ beacon> execute-assembly C:\Tools\SharpDPAPI\SharpDPAPI\bin\Release\SharpDPAPI.e
 > Si no hay claves cacheadas, `/rpc` aprovecha el **Microsoft BackupKey Remote Protocol (MS-BKRP)** para que el DC descifre la clave AES. Funciona porque los DCs mantienen copia de la DPAPI master key del usuario.
 
 ## Ver también
-- [[Credentials from Web Browsers]]
-- [[OS Credential Dumping]]
+- [[04-lateral-movement/credential-access/credentials-from-web-browsers|Credentials from Web Browsers]]
+- [[03-post-explotacion/credential-access/os-credential-dumping|OS Credential Dumping]]

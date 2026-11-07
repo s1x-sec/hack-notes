@@ -67,7 +67,7 @@ beacon> dcsync [DOMAIN\User]                 # Via BOF si disponible
 
 ## Referencias
 
-- [[Kerberos Tickets]] — para dump de tickets específicamente
+- [[03-post-explotacion/credential-access/kerberos-tickets|Kerberos Tickets]] — para dump de tickets específicamente
 - Evento 4624 Logon Type 3 → tokens en memoria pero sin creds en LSASS
 
 

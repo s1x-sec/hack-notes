@@ -11,12 +11,12 @@ status: done
 
 | Tema | Nota |
 |------|------|
-| Listeners | [[Listeners/Listeners]] |
-| Beacons (overview) | [[Cobalt Strike/Beacons]] |
-| Generar Payloads | [[Cobalt Strike/Beacons/Generar Payloads]] |
-| Interactuar con Beacons | [[Cobalt Strike/Beacons/Interactuar con Beacons]] |
-| Malleable C2 | [[Cobalt Strike/Malleable C2]] |
-| Fork & Run vs BOF | [[Cobalt Strike/Fork & Run vs BOF]] |
+| Listeners | [[08-infraestructura-c2/listeners|Listeners]] |
+| Beacons (overview) | [[08-infraestructura-c2/cobalt-strike/beacons|Beacons]] |
+| Generar Payloads | [[08-infraestructura-c2/cobalt-strike/beacons/generar-payloads|Generar Payloads]] |
+| Interactuar con Beacons | [[08-infraestructura-c2/cobalt-strike/beacons/interactuar-con-beacons|Interactuar con Beacons]] |
+| Malleable C2 | [[08-infraestructura-c2/cobalt-strike/malleable-c2|Malleable C2]] |
+| Fork & Run vs BOF | [[08-infraestructura-c2/cobalt-strike/fork--and--run-vs-bof|Fork & Run vs BOF]] |
 
 ---
 
@@ -24,12 +24,12 @@ status: done
 
 | Categoría | Nota |
 |-----------|------|
-| API-Only Commands | [[Cobalt Strike/Beacon Cheatsheet/API-Only Commands]] |
-| Fork & Run Commands | [[Cobalt Strike/Beacon Cheatsheet/Fork & Run Commands]] |
-| Inline Commands (BOF) | [[Cobalt Strike/Beacon Cheatsheet/Inline Commands (BOF)]] |
-| Process Execution Commands | [[Cobalt Strike/Beacon Cheatsheet/Process Execution Commands]] |
-| House-Keeping Commands | [[Cobalt Strike/Beacon Cheatsheet/House-Keeping Commands]] |
-| Service Creations | [[Cobalt Strike/Beacon Cheatsheet/Service Creations]] |
+| API-Only Commands | [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/api-only-commands|API-Only Commands]] |
+| Fork & Run Commands | [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/fork--and--run-commands|Fork & Run Commands]] |
+| Inline Commands (BOF) | [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/inline-commands-(bof)|Inline Commands (BOF)]] |
+| Process Execution Commands | [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/process-execution-commands|Process Execution Commands]] |
+| House-Keeping Commands | [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/house-keeping-commands|House-Keeping Commands]] |
+| Service Creations | [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/service-creations|Service Creations]] |
 
 ---
 
@@ -59,7 +59,7 @@ status: done
 > | execute-assembly | Sí (CLR en proc) | No | Alta — ETW / CLR events |
 >
 > → Regla: **BOF siempre que exista**. Fork & Run solo para herramientas sin BOF port.
-> → [[Cobalt Strike/Fork & Run vs BOF]] para la config completa del bloque `process-inject`.
+> → [[08-infraestructura-c2/cobalt-strike/fork--and--run-vs-bof|Fork & Run vs BOF]] para la config completa del bloque `process-inject`.
 
 ---
 

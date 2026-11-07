@@ -14,7 +14,7 @@ platform: windows
 
 NTLM no requiere la contraseña para la autenticación — usa el hash directamente en el protocolo de challenge-response. Si tenemos el hash, tenemos la contraseña (funcionalmente).
 
-**Limitación:** Solo funciona con autenticación NTLM. Si el servicio exige Kerberos, PtH no aplica directamente → usar [[Pass The Ticket]].
+**Limitación:** Solo funciona con autenticación NTLM. Si el servicio exige Kerberos, PtH no aplica directamente → usar [[04-lateral-movement/user-impersonation/pass-the-ticket|Pass The Ticket]].
 
 ---
 

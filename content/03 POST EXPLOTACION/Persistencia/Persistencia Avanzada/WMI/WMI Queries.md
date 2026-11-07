@@ -44,5 +44,5 @@ Wait-Event -SourceIdentifier "ProcessWatch"
 ```
 
 ## Ver también
-- [[WMI Eventing]]
-- [[WMI Remote Triggers]]
+- [[03-post-explotacion/persistencia/persistencia-avanzada/wmi/wmi-eventing|WMI Eventing]]
+- [[03-post-explotacion/persistencia/persistencia-avanzada/wmi/wmi-remote-triggers|WMI Remote Triggers]]

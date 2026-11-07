@@ -39,4 +39,4 @@ Connection: close
 
 ## Ver también
 - [[Técnicas Host Header]]
-- [[Password Reset Flows]]
+- [[07-web-hacking/ataques/http-host-header/escenarios/password-reset-flows|Password Reset Flows]]

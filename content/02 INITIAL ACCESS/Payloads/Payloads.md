@@ -79,5 +79,5 @@ DLL especial cargada por Excel como complemento:
 
 ## Droppers
 
-→ Ver [[Droppers]] para: GadgetToJScript, .NET Class Library, embedded resources.
+→ Ver [[02-initial-access/payloads/droppers|Droppers]] para: GadgetToJScript, .NET Class Library, embedded resources.
 

@@ -68,7 +68,7 @@ El shellcode del loader está **antes** del beacon en el buffer:
 
 ## Beacon Cheatsheet
 
-→ Ver [[Fork & Run vs BOF]] para comandos detallados por tipo de ejecución.
+→ Ver [[08-infraestructura-c2/cobalt-strike/fork--and--run-vs-bof|Fork & Run vs BOF]] para comandos detallados por tipo de ejecución.
 
 ```
 # Estado básico

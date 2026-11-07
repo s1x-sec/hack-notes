@@ -35,4 +35,4 @@ sqlmap -m urls_con_parametros.txt \
 
 ## Ver también
 
-- [[SQL Injection]] — técnicas manuales
+- [[07-web-hacking/sql-injection|SQL Injection]] — técnicas manuales

@@ -53,6 +53,6 @@ $lnk.Save()
 https://github.com/ZERODETECTION/MSC_Dropper
 
 ## Ver también
-- [[Containers]]
-- [[Payloads]]
-- [[Delivery]]
+- [[02-initial-access/containers|Containers]]
+- [[02-initial-access/payloads|Payloads]]
+- [[02-initial-access/técnicas/delivery|Delivery]]

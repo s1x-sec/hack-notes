@@ -21,5 +21,5 @@ bloodyAD --host 192.168.156.165 -d heist.offsec -u enox -p california add groupM
 ```
 
 ## Ver también
-- [[Default Domain Policy]]
-- [[Resourced Based Constrained Delegation]]
+- [[05-ad-attacks/discovery/default-domain-policy|Default Domain Policy]]
+- [[05-ad-attacks/discovery/resourced-based-constrained-delegation|Resourced Based Constrained Delegation]]

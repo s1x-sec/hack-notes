@@ -20,5 +20,5 @@ beacon> execute-assembly C:\Tools\SharpDPAPI\SharpChrome\bin\Release\SharpChrome
 ```
 
 ## Ver también
-- [[Windows Credential Manager]]
-- [[OS Credential Dumping]]
+- [[04-lateral-movement/credential-access/windows-credential-manager|Windows Credential Manager]]
+- [[03-post-explotacion/credential-access/os-credential-dumping|OS Credential Dumping]]

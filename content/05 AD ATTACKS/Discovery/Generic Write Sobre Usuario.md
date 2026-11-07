@@ -23,5 +23,5 @@ sudo hashcat -m 13100 hashes.kerberoast /usr/share/wordlists/rockyou.txt -r /usr
 ```
 
 ## Ver también
-- [[Kerberoasting]]
-- [[Force Password Change]]
+- [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]
+- [[05-ad-attacks/discovery/force-password-change|Force Password Change]]

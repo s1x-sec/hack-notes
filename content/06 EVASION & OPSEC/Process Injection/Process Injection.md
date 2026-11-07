@@ -156,5 +156,5 @@ ResumeThread(pi.hThread);
 | Detección | Mayor (proceso hijo) | Menor |
 | Uso típico | execute-assembly, mimikatz | BOFs, comandos nativos |
 
-→ Ver [[../../08 INFRAESTRUCTURA C2/Cobalt Strike/Fork & Run vs BOF]]
+→ Ver [[08-infraestructura-c2/cobalt-strike/fork--and--run-vs-bof|Fork & Run vs BOF]]
 

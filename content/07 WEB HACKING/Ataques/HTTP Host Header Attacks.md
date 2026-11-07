@@ -125,11 +125,11 @@ curl -H "Host: evil.attacker.com" https://target.com/forgot-password -d "email=t
 
 | Escenario | Nota |
 |-----------|------|
-| Metodología de testing | [[HTTP Host Header/Metodología]] |
-| Técnicas de bypass | [[HTTP Host Header/Técnicas]] |
-| Password Reset Flows | [[HTTP Host Header/Escenarios/Password Reset Flows]] |
-| Auth Bypass via Host Header | [[HTTP Host Header/Escenarios/Auth Bypass via Host Header]] |
-| Accessing Restricted Functions | [[HTTP Host Header/Escenarios/Accessing Restricted Functions]] |
-| Routing Based SSRF | [[HTTP Host Header/Escenarios/Routing Based SSRF]] |
-| Virtual Host Brute Forcing | [[HTTP Host Header/Escenarios/Virtual Host Brute Forcing]] |
-| Web Cache Poisoning | [[HTTP Host Header/Escenarios/Web Cache Poisoning]] |
+| Metodología de testing | [[07-web-hacking/ataques/http-host-header/metodología|Metodología]] |
+| Técnicas de bypass | [[07-web-hacking/ataques/http-host-header/técnicas|Técnicas]] |
+| Password Reset Flows | [[07-web-hacking/ataques/http-host-header/escenarios/password-reset-flows|Password Reset Flows]] |
+| Auth Bypass via Host Header | [[07-web-hacking/ataques/http-host-header/escenarios/auth-bypass-via-host-header|Auth Bypass via Host Header]] |
+| Accessing Restricted Functions | [[07-web-hacking/ataques/http-host-header/escenarios/accessing-restricted-functions|Accessing Restricted Functions]] |
+| Routing Based SSRF | [[07-web-hacking/ataques/http-host-header/escenarios/routing-based-ssrf|Routing Based SSRF]] |
+| Virtual Host Brute Forcing | [[07-web-hacking/ataques/http-host-header/escenarios/virtual-host-brute-forcing|Virtual Host Brute Forcing]] |
+| Web Cache Poisoning | [[07-web-hacking/ataques/http-host-header/escenarios/web-cache-poisoning|Web Cache Poisoning]] |

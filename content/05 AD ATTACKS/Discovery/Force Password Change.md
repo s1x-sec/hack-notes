@@ -29,5 +29,5 @@ Set-DomainUserPassword -Identity molly.smith -AccountPassword $NewPassword
 ```
 
 ## Ver también
-- [[Generic Write Sobre Usuario]]
-- [[GenericAll DC]]
+- [[05-ad-attacks/discovery/generic-write-sobre-usuario|Generic Write Sobre Usuario]]
+- [[05-ad-attacks/discovery/genericall-dc|GenericAll DC]]

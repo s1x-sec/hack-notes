@@ -18,6 +18,6 @@ python3 PackMyPayload.py -H decoy.xlsx,payload.xlam /mnt/c/Payloads/xlam /mnt/c/
 Repo: https://github.com/mgeeky/PackMyPayload
 
 ## Ver también
-- [[Triggers]]
-- [[Payloads]]
-- [[Delivery]]
+- [[02-initial-access/triggers|Triggers]]
+- [[02-initial-access/payloads|Payloads]]
+- [[02-initial-access/técnicas/delivery|Delivery]]

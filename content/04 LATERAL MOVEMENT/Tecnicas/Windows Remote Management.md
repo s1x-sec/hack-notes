@@ -34,5 +34,5 @@ beacon> remote-exec winrm lon-ws-1 net sessions
 | Ruido | Alto | Medio |
 
 ## Ver también
-- [[PsExec]]
-- [[Jump y Remote-Exec]]
+- [[04-lateral-movement/tecnicas/psexec|PsExec]]
+- [[04-lateral-movement/tecnicas/jump-y-remote-exec|Jump y Remote-Exec]]

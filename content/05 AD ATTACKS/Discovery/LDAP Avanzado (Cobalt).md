@@ -136,7 +136,7 @@ ldapsearch -v -x -D fmcsorley@HUTCH.OFFSEC -w CrabSharkJellyfish192 \
 ```
 
 ## Ver también
-- [[LDAP Discovery]]
-- [[BOFHound]]
-- [[Enumeración AD]]
-- [[Kerberoasting]]
+- [[05-ad-attacks/discovery/ldap-discovery|LDAP Discovery]]
+- [[05-ad-attacks/discovery/bofhound|BOFHound]]
+- [[05-ad-attacks/discovery/enumeración-ad|Enumeración AD]]
+- [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]

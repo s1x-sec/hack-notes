@@ -76,7 +76,7 @@ beacon> socks stop
 ```
 
 ## Ver también
-- [[Session Passing]]
-- [[Lateral Movement Services (CS)]]
-- [[RBCD]]
-- [[Reverse Port Forward Cobalt Strike]]
+- [[03-post-explotacion/cs-post-ex/session-passing|Session Passing]]
+- [[05-ad-attacks/kerberos/lateral-movement-services-(cs)|Lateral Movement Services (CS)]]
+- [[05-ad-attacks/kerberos/rbcd|RBCD]]
+- [[04-lateral-movement/tecnicas/reverse-port-forward-cobalt-strike|Reverse Port Forward Cobalt Strike]]

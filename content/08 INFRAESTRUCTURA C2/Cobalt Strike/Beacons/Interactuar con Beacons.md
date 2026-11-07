@@ -55,5 +55,5 @@ View → Targets     # Ver hosts comprometidos
 ```
 
 ## Ver también
-- [[Generar Payloads]]
-- [[House-Keeping Commands]]
+- [[08-infraestructura-c2/cobalt-strike/beacons/generar-payloads|Generar Payloads]]
+- [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/house-keeping-commands|House-Keeping Commands]]

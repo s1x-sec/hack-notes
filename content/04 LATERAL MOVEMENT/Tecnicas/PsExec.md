@@ -30,6 +30,6 @@ beacon> jump psexec64 lon-ws-1 smb
 > - Named pipe usage
 
 ## Ver también
-- [[Windows Remote Management]]
-- [[Jump y Remote-Exec]]
-- [[Custom Techniques]]
+- [[04-lateral-movement/tecnicas/windows-remote-management|Windows Remote Management]]
+- [[04-lateral-movement/tecnicas/jump-y-remote-exec|Jump y Remote-Exec]]
+- [[04-lateral-movement/tecnicas/custom-techniques|Custom Techniques]]

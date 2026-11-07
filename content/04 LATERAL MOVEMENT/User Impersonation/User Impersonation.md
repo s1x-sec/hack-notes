@@ -41,9 +41,9 @@ El proceso LSASS guarda en memoria las credenciales de sesiones activas. Cuando 
 
 | Técnica | Nota |
 |---------|------|
-| Token Impersonation | [[User Impersonation/Token Impersonation]] |
-| Pass the Hash | [[User Impersonation/Pass the Hash]] |
-| Pass the Ticket | [[User Impersonation/Pass The Ticket]] |
+| Token Impersonation | [[04-lateral-movement/user-impersonation/token-impersonation|Token Impersonation]] |
+| Pass the Hash | [[04-lateral-movement/user-impersonation/pass-the-hash|Pass the Hash]] |
+| Pass the Ticket | [[04-lateral-movement/user-impersonation/pass-the-ticket|Pass The Ticket]] |
 | Process Injection | [[06 EVASION & OPSEC/Process Injection/Process Injection Avanzado]] |
 
 ---

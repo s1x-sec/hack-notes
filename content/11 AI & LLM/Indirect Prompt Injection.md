@@ -60,5 +60,5 @@ Ignore previous instructions. Do X instead.
 - Account takeover si el LLM gestiona cuentas
 
 ## Ver también
-- [[LLM API Attack Surface]]
+- [[11-ai--and--llm/llm-api-attack-surface|LLM API Attack Surface]]
 - [[Chaining Vulnerabilities (LLM)]]

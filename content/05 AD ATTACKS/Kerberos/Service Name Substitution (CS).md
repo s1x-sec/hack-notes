@@ -24,6 +24,6 @@ kerberos::golden /sid:<domainSID> /domain:<domain> /ptt /target:<host> /service:
 ```
 
 ## Ver también
-- [[Silver Ticket]]
-- [[Kerberos]]
-- [[S4U2Self]]
+- [[05-ad-attacks/ataques/silver-ticket|Silver Ticket]]
+- [[05-ad-attacks/kerberos|Kerberos]]
+- [[05-ad-attacks/kerberos/s4u2self|S4U2Self]]

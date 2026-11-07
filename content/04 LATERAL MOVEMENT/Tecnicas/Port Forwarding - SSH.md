@@ -43,5 +43,5 @@ proxychains4 nmap -sT -Pn 172.16.50.0/24
 
 ## Ver también
 
-- [[Pivoting con Cobalt]] — SOCKS4a via Cobalt Strike + Proxifier
-- [[Ligolo-ng]] — pivoting de capa 3 más robusto
+- [[04-lateral-movement/tecnicas/pivoting-con-cobalt|Pivoting con Cobalt]] — SOCKS4a via Cobalt Strike + Proxifier
+- [[04-lateral-movement/tecnicas/ligolo-ng|Ligolo-ng]] — pivoting de capa 3 más robusto

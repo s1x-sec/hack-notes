@@ -93,5 +93,5 @@ frida -U -n com.target.app -l bypass_root.js
 ```
 
 ## Ver también
-- [[ADB]]
-- [[Teoría Android]]
+- [[10-mobile/android/adb|ADB]]
+- [[10-mobile/android/teoría-android|Teoría Android]]

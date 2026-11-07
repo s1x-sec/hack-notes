@@ -85,6 +85,6 @@ Crear un MSI malicioso desde Visual Studio con la extensión [Installer Projects
 Archivo `.xlam` que añade funcionalidades a Excel. Los usuarios lo usan para macros en la barra de tareas.
 
 ## Ver también
-- [[Droppers]]
-- [[DLL Hijacking]]
-- [[Triggers]]
+- [[02-initial-access/payloads/droppers|Droppers]]
+- [[03-post-explotacion/privilege-escalation/windows/dll-hijacking|DLL Hijacking]]
+- [[02-initial-access/triggers|Triggers]]

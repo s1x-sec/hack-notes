@@ -18,6 +18,6 @@ beacon> jump psexec64 target-host smb
 ```
 
 ## Ver también
-- [[Kerberos]]
-- [[Pass The Ticket]]
-- [[S4U2Self]]
+- [[05-ad-attacks/kerberos|Kerberos]]
+- [[04-lateral-movement/user-impersonation/pass-the-ticket|Pass The Ticket]]
+- [[05-ad-attacks/kerberos/s4u2self|S4U2Self]]

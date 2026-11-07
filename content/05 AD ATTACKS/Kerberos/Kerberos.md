@@ -56,7 +56,7 @@ Reemplazó NTLM como protocolo de autenticación de dominio desde Windows Server
 
 Por defecto los usuarios deben hacer **pre-auth**: cifrar el timestamp actual con el hash de su contraseña antes de recibir el TGT.
 
-- Si se **deshabilita** → el KDC devuelve el AS-REP sin verificar identidad → **AS-REP Roasting** (`[[AS-REP Roasting]]`)
+- Si se **deshabilita** → el KDC devuelve el AS-REP sin verificar identidad → **AS-REP Roasting** (`[[05-ad-attacks/kerberos/as-rep-roasting|AS-REP Roasting]]`)
 - El `EncASRepPart` (logon session key cifrada con hash del usuario) es lo que se crackea
 
 ---
@@ -83,19 +83,19 @@ El KDC **no valida permisos**. Solo emite tickets técnicamente válidos.
 
 | Concepto | Ataque |
 |---------|--------|
-| Pre-auth deshabilitada | [[AS-REP Roasting]] — crackear EncASRepPart offline |
-| SPN asociado a cuenta de usuario | [[Kerberoasting]] — pedir ST y crackear EncTicketPart offline |
+| Pre-auth deshabilitada | [[05-ad-attacks/kerberos/as-rep-roasting|AS-REP Roasting]] — crackear EncASRepPart offline |
+| SPN asociado a cuenta de usuario | [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]] — pedir ST y crackear EncTicketPart offline |
 | Conocemos hash de krbtgt | [[05 AD ATTACKS/Ataques/Silver Ticket]] — forjar ST para cualquier servicio |
-| Delegación sin restricciones | [[Unconstrained Delegation]] — robar TGTs de otros |
-| Delegación restringida | [[Constrained Delegation]] / [[RBCD]] — impersonar usuarios a servicios específicos |
+| Delegación sin restricciones | [[05-ad-attacks/kerberos/unconstrained-delegation|Unconstrained Delegation]] — robar TGTs de otros |
+| Delegación restringida | [[05-ad-attacks/kerberos/constrained-delegation|Constrained Delegation]] / [[05-ad-attacks/kerberos/rbcd|RBCD]] — impersonar usuarios a servicios específicos |
 
 ---
 
 ## Ver también
 
-- [[Kerberoasting]]
-- [[AS-REP Roasting]]
-- [[Unconstrained Delegation]]
-- [[Constrained Delegation]]
-- [[RBCD]]
-- [[S4U2Self]]
+- [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]
+- [[05-ad-attacks/kerberos/as-rep-roasting|AS-REP Roasting]]
+- [[05-ad-attacks/kerberos/unconstrained-delegation|Unconstrained Delegation]]
+- [[05-ad-attacks/kerberos/constrained-delegation|Constrained Delegation]]
+- [[05-ad-attacks/kerberos/rbcd|RBCD]]
+- [[05-ad-attacks/kerberos/s4u2self|S4U2Self]]

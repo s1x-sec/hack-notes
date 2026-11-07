@@ -64,6 +64,6 @@ Firmar con certificado (aunque sea autofirmado) ayuda a bypassear ciertos AVs.
 `Attacks → Packages → Generate All` — genera todos los formatos de una vez.
 
 ## Ver también
-- [[Interactuar con Beacons]]
-- [[Fork & Run Commands]]
-- [[Funcionamiento de EDR]]
+- [[08-infraestructura-c2/cobalt-strike/beacons/interactuar-con-beacons|Interactuar con Beacons]]
+- [[08-infraestructura-c2/cobalt-strike/beacon-cheatsheet/fork--and--run-commands|Fork & Run Commands]]
+- [[06-evasion--and--opsec/edr/funcionamiento-de-edr|Funcionamiento de EDR]]

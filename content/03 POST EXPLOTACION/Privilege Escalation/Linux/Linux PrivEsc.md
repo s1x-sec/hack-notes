@@ -12,13 +12,13 @@ tags: [privesc, linux]
 - [ ] `sudo -l` — permisos de sudo sobre comandos
 - [ ] `sudo -V` — versión de sudo vulnerable?
 - [ ] Aliases: `alias`
-- [ ] Grupos especiales: `id` → ir a [[Grupos Linux]]
+- [ ] Grupos especiales: `id` → ir a [[03-post-explotacion/privilege-escalation/linux/grupos/grupos-linux|Grupos Linux]]
 - [ ] Procesos como root: `ps aux | grep root` (combinar con **pspy64**)
-- [ ] Binarios SUID/SGID → [[SETUID Linux]]
+- [ ] Binarios SUID/SGID → [[03-post-explotacion/privilege-escalation/linux/setuid-linux|SETUID Linux]]
 - [ ] Capabilities: `getcap -r / 2>/dev/null`
 - [ ] Tareas programadas: `crontab -l`, `cat /etc/crontab` (también pspy)
 - [ ] Puertos internos — si hay web interna → explotar → usuario `www-data`
-- [ ] Credenciales perdidas → [[Búsqueda de Credenciales Linux]]
+- [ ] Credenciales perdidas → [[03-post-explotacion/privilege-escalation/linux/búsqueda-de-credenciales-linux|Búsqueda de Credenciales Linux]]
 - [ ] Permisos sobre `/etc/passwd`
 - [ ] Exploits de kernel
 
@@ -69,13 +69,13 @@ netstat -tlnp
 
 | Técnica | Nota |
 |---------|------|
-| Búsqueda de Credenciales | [[Búsqueda de Credenciales Linux]] |
-| SETUID/SGID | [[SETUID Linux]] |
-| Path Abuse | [[Path Abuse Linux]] |
-| Wildcard Abuse | [[Wildcard Abuse]] |
-| Shell Restrictiva | [[Shell Restrictiva]] |
-| Grupos (Docker, LXD, Disk, ADM) | [[Grupos/Grupos Linux]] |
-| ADM | [[Grupos/ADM]] |
-| Disk | [[Grupos/Disk]] |
-| Docker | [[Grupos/Docker]] |
-| LXC/LXD | [[Grupos/LXC-LXD]] |
+| Búsqueda de Credenciales | [[03-post-explotacion/privilege-escalation/linux/búsqueda-de-credenciales-linux|Búsqueda de Credenciales Linux]] |
+| SETUID/SGID | [[03-post-explotacion/privilege-escalation/linux/setuid-linux|SETUID Linux]] |
+| Path Abuse | [[03-post-explotacion/privilege-escalation/linux/path-abuse-linux|Path Abuse Linux]] |
+| Wildcard Abuse | [[03-post-explotacion/privilege-escalation/linux/wildcard-abuse|Wildcard Abuse]] |
+| Shell Restrictiva | [[03-post-explotacion/privilege-escalation/linux/shell-restrictiva|Shell Restrictiva]] |
+| Grupos (Docker, LXD, Disk, ADM) | [[03-post-explotacion/privilege-escalation/linux/grupos/grupos-linux|Grupos Linux]] |
+| ADM | [[03-post-explotacion/privilege-escalation/linux/grupos/adm|ADM]] |
+| Disk | [[03-post-explotacion/privilege-escalation/linux/grupos/disk|Disk]] |
+| Docker | [[03-post-explotacion/privilege-escalation/linux/grupos/docker|Docker]] |
+| LXC/LXD | [[03-post-explotacion/privilege-escalation/linux/grupos/lxc-lxd|LXC-LXD]] |

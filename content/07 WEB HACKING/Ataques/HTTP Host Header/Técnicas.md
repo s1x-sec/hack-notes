@@ -74,5 +74,5 @@ Forwarded: host=evil.attacker.com
 
 ## Ver también
 - [[Metodología Host Header]]
-- [[Password Reset Flows]]
-- [[Web Cache Poisoning]]
+- [[07-web-hacking/ataques/http-host-header/escenarios/password-reset-flows|Password Reset Flows]]
+- [[07-web-hacking/ataques/http-host-header/escenarios/web-cache-poisoning|Web Cache Poisoning]]

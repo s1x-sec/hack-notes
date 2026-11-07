@@ -79,7 +79,7 @@ ResumeThread(pi.hThread);
 ```
 
 ## Ver también
-- [[Malware Essentials]]
-- [[Funcionamiento de EDR]]
-- [[PPID Spoofing]]
-- [[Fork & Run vs BOF]]
+- [[06-evasion--and--opsec/malware/malware-essentials|Malware Essentials]]
+- [[06-evasion--and--opsec/edr/funcionamiento-de-edr|Funcionamiento de EDR]]
+- [[06-evasion--and--opsec/process-injection/ppid-spoofing|PPID Spoofing]]
+- [[08-infraestructura-c2/cobalt-strike/fork--and--run-vs-bof|Fork & Run vs BOF]]
