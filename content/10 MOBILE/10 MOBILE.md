@@ -13,8 +13,8 @@ status: wip
 
 | Plataforma | Nota | Estado |
 |------------|------|--------|
-| Android | [[10-mobile/android|Android]] | 🟡 Parcial |
-| iOS | [[10-mobile/ios|iOS]] | 🔴 Vacío |
+| Android | [[10-mobile/android\|Android]] | 🟡 Parcial |
+| iOS | [[10-mobile/ios\|iOS]] | 🔴 Vacío |
 
 ---
 

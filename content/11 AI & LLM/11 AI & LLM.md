@@ -13,14 +13,14 @@ status: wip
 
 | Tema | Nota |
 |------|------|
-| LLM API Attack Surface | [[11-ai--and--llm/llm-api-attack-surface|LLM API Attack Surface]] |
-| Indirect Prompt Injection | [[11-ai--and--llm/indirect-prompt-injection|Indirect Prompt Injection]] |
-| Chaining Vulnerabilities | [[11-ai--and--llm/chaining-vulnerabilities|Chaining Vulnerabilities]] |
-| Agentes de IA | [[11-ai--and--llm/agentes|Agentes]] |
-| MCP Servers (índice) | [[11-ai--and--llm/agentes/mcp-servers|MCP SERVERS]] |
-| mcp_recon (overview) | [[11-ai--and--llm/agentes/mcp-servers/mcp_recon|mcp_recon]] |
-| mcp_recon — package.json | [[11-ai--and--llm/agentes/mcp-servers/mcp_recon/package.json|package.json]] |
-| mcp_recon — server.js | [[11-ai--and--llm/agentes/mcp-servers/mcp_recon/server.js|server.js]] |
+| LLM API Attack Surface | [[11-ai--and--llm/llm-api-attack-surface\|LLM API Attack Surface]] |
+| Indirect Prompt Injection | [[11-ai--and--llm/indirect-prompt-injection\|Indirect Prompt Injection]] |
+| Chaining Vulnerabilities | [[11-ai--and--llm/chaining-vulnerabilities\|Chaining Vulnerabilities]] |
+| Agentes de IA | [[11-ai--and--llm/agentes\|Agentes]] |
+| MCP Servers (índice) | [[11-ai--and--llm/agentes/mcp-servers\|MCP SERVERS]] |
+| mcp_recon (overview) | [[11-ai--and--llm/agentes/mcp-servers/mcp_recon\|mcp_recon]] |
+| mcp_recon — package.json | [[11-ai--and--llm/agentes/mcp-servers/mcp_recon/package.json\|package.json]] |
+| mcp_recon — server.js | [[11-ai--and--llm/agentes/mcp-servers/mcp_recon/server.js\|server.js]] |
 
 ---
 

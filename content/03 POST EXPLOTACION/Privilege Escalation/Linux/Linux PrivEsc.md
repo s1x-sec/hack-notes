@@ -69,13 +69,13 @@ netstat -tlnp
 
 | Técnica | Nota |
 |---------|------|
-| Búsqueda de Credenciales | [[03-post-explotacion/privilege-escalation/linux/búsqueda-de-credenciales-linux|Búsqueda de Credenciales Linux]] |
-| SETUID/SGID | [[03-post-explotacion/privilege-escalation/linux/setuid-linux|SETUID Linux]] |
-| Path Abuse | [[03-post-explotacion/privilege-escalation/linux/path-abuse-linux|Path Abuse Linux]] |
-| Wildcard Abuse | [[03-post-explotacion/privilege-escalation/linux/wildcard-abuse|Wildcard Abuse]] |
-| Shell Restrictiva | [[03-post-explotacion/privilege-escalation/linux/shell-restrictiva|Shell Restrictiva]] |
-| Grupos (Docker, LXD, Disk, ADM) | [[03-post-explotacion/privilege-escalation/linux/grupos/grupos-linux|Grupos Linux]] |
-| ADM | [[03-post-explotacion/privilege-escalation/linux/grupos/adm|ADM]] |
-| Disk | [[03-post-explotacion/privilege-escalation/linux/grupos/disk|Disk]] |
-| Docker | [[03-post-explotacion/privilege-escalation/linux/grupos/docker|Docker]] |
-| LXC/LXD | [[03-post-explotacion/privilege-escalation/linux/grupos/lxc-lxd|LXC-LXD]] |
+| Búsqueda de Credenciales | [[03-post-explotacion/privilege-escalation/linux/búsqueda-de-credenciales-linux\|Búsqueda de Credenciales Linux]] |
+| SETUID/SGID | [[03-post-explotacion/privilege-escalation/linux/setuid-linux\|SETUID Linux]] |
+| Path Abuse | [[03-post-explotacion/privilege-escalation/linux/path-abuse-linux\|Path Abuse Linux]] |
+| Wildcard Abuse | [[03-post-explotacion/privilege-escalation/linux/wildcard-abuse\|Wildcard Abuse]] |
+| Shell Restrictiva | [[03-post-explotacion/privilege-escalation/linux/shell-restrictiva\|Shell Restrictiva]] |
+| Grupos (Docker, LXD, Disk, ADM) | [[03-post-explotacion/privilege-escalation/linux/grupos/grupos-linux\|Grupos Linux]] |
+| ADM | [[03-post-explotacion/privilege-escalation/linux/grupos/adm\|ADM]] |
+| Disk | [[03-post-explotacion/privilege-escalation/linux/grupos/disk\|Disk]] |
+| Docker | [[03-post-explotacion/privilege-escalation/linux/grupos/docker\|Docker]] |
+| LXC/LXD | [[03-post-explotacion/privilege-escalation/linux/grupos/lxc-lxd\|LXC-LXD]] |

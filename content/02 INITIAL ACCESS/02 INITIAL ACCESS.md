@@ -13,15 +13,15 @@ status: wip
 
 | Área | Nota |
 |------|------|
-| Introducción | [[02-initial-access/introducción|Introducción]] |
+| Introducción | [[02-initial-access/introducción\|Introducción]] |
 | **Delivery / Phishing** | |
-| Delivery (cloning, HTML smuggling, SVG) | [[02-initial-access/técnicas/delivery|Delivery]] |
-| Containers — MotW bypass | [[02-initial-access/containers|Containers]] |
-| Triggers (.bat, .lnk, .msc) | [[02-initial-access/triggers|Triggers]] |
+| Delivery (cloning, HTML smuggling, SVG) | [[02-initial-access/técnicas/delivery\|Delivery]] |
+| Containers — MotW bypass | [[02-initial-access/containers\|Containers]] |
+| Triggers (.bat, .lnk, .msc) | [[02-initial-access/triggers\|Triggers]] |
 | **Payloads** | |
-| Payloads (overview) | [[02-initial-access/payloads|Payloads]] |
-| Payloads Avanzados (DLL, MSI, AppDomain) | [[02-initial-access/payloads/payloads-avanzados|Payloads Avanzados]] |
-| Droppers (C# + GadgetToJScript) | [[02-initial-access/técnicas/droppers|Droppers]] |
+| Payloads (overview) | [[02-initial-access/payloads\|Payloads]] |
+| Payloads Avanzados (DLL, MSI, AppDomain) | [[02-initial-access/payloads/payloads-avanzados\|Payloads Avanzados]] |
+| Droppers (C# + GadgetToJScript) | [[02-initial-access/técnicas/droppers\|Droppers]] |
 
 ---
 
@@ -30,15 +30,15 @@ status: wip
 ```
 ¿Qué vector tienes disponible?
 │
-├── Email / Phishing → [[02-initial-access/técnicas/delivery|Delivery]]
+├── Email / Phishing → [[Técnicas/Delivery]]
 │     ├── HTML Smuggling
 │     ├── SVG Smuggling
 │     └── Site Cloning (CS)
 │
 ├── Archivo a entregar
-│     ├── MotW bloqueando macros → [[02-initial-access/containers|Containers]]
-│     ├── Trigger (.lnk/.bat) → [[02-initial-access/triggers|Triggers]]
-│     └── Dropper C# / JS → [[02-initial-access/técnicas/droppers|Droppers]]
+│     ├── MotW bloqueando macros → [[Containers/Containers]]
+│     ├── Trigger (.lnk/.bat) → [[Triggers/Triggers]]
+│     └── Dropper C# / JS → [[Técnicas/Droppers]]
 │
 ├── Web App
 │     ├── File Upload RCE

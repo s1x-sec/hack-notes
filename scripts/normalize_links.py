@@ -65,6 +65,7 @@ def collect(content):
     return note_ps_rs, folderslugs, pageset, md_files
 
 WIKILINK = re.compile(r"(!?)\[\[([^\]]+?)\]\]")
+INLINE_CODE = re.compile(r"`[^`]*`")
 
 def make_resolver(note_ps_rs, folderslugs, pageset):
     def best(cands, src_slug):
@@ -80,7 +81,11 @@ def make_resolver(note_ps_rs, folderslugs, pageset):
 
     def resolve(tpath, src_slug):
         slugt = slugify(tpath)
-        if slugt == "" or slugt in pageset:
+        if slugt == "":
+            return None
+        if slugt in ALIAS_MAP and ALIAS_MAP[slugt] in pageset:
+            return (ALIAS_MAP[slugt], False)
+        if slugt in pageset:
             return None                     # same-page anchor, or already canonical
         # drop relative ./ and ../ segments -> match by path tail (and still
         # rewrite, so the stored link no longer depends on relative resolution)
@@ -114,24 +119,47 @@ def make_resolver(note_ps_rs, folderslugs, pageset):
 
 def process_file(full, rel, src_slug, resolve, write):
     txt = io.open(full, encoding="utf-8").read()
+    lines = txt.split("\n")
     changes = []
 
-    def repl(mobj):
-        bang, inner = mobj.group(1), mobj.group(2)
-        target, display = (inner.split("|", 1) + [None])[:2]
-        tpath, anchor = (target.split("#", 1) + [None])[:2]
-        tpath = tpath.strip()
-        r = resolve(tpath, src_slug)
-        if r is None:
-            return mobj.group(0)
-        chosen, ambiguous = r
-        disp = display if display is not None else tpath.split("/")[-1]
-        newtarget = chosen + ("#" + anchor if anchor else "")
-        newlink = f"{bang}[[{newtarget}|{disp}]]"
-        changes.append((mobj.group(0), newlink, "ambiguous" if ambiguous else "fix"))
-        return newlink
+    def make_repl(is_table):
+        def repl(mobj):
+            bang, inner = mobj.group(1), mobj.group(2)
+            inner = inner.replace("\\|", "|")          # normalise any prior table-escape
+            target, display = (inner.split("|", 1) + [None])[:2]
+            tpath, anchor = (target.split("#", 1) + [None])[:2]
+            tpath = tpath.strip()
+            r = resolve(tpath, src_slug)
+            if r is None:
+                return mobj.group(0)
+            chosen, ambiguous = r
+            disp = display if display is not None else tpath.split("/")[-1]
+            newtarget = chosen + ("#" + anchor if anchor else "")
+            # inside a markdown table the alias pipe MUST be escaped, else it
+            # is read as a column separator and breaks the row.
+            sep = "\\|" if is_table else "|"
+            newlink = f"{bang}[[{newtarget}{sep}{disp}]]"
+            changes.append((mobj.group(0), newlink, "ambiguous" if ambiguous else "fix"))
+            return newlink
+        return repl
 
-    newtxt = WIKILINK.sub(repl, txt)
+    in_fence = False
+    for i, line in enumerate(lines):
+        stripped = line.lstrip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue                         # never touch fenced code (diagrams, snippets)
+        repl = make_repl(stripped.startswith("|"))
+        parts, last = [], 0
+        for m in INLINE_CODE.finditer(line):   # skip inline-code spans
+            parts.append(WIKILINK.sub(repl, line[last:m.start()]))
+            parts.append(m.group(0))
+            last = m.end()
+        parts.append(WIKILINK.sub(repl, line[last:]))
+        lines[i] = "".join(parts)
+    newtxt = "\n".join(lines)
     if write and newtxt != txt:
         with io.open(full, "w", encoding="utf-8", newline="") as f:
             f.write(newtxt)

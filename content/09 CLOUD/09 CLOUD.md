@@ -13,8 +13,8 @@ status: pendiente
 
 | Plataforma | Nota | Estado |
 |------------|------|--------|
-| AWS | [[09-cloud/aws|AWS]] | 🔴 Vacío |
-| Azure | [[09-cloud/azure|Azure]] | 🔴 Vacío |
+| AWS | [[09-cloud/aws\|AWS]] | 🔴 Vacío |
+| Azure | [[09-cloud/azure\|Azure]] | 🔴 Vacío |
 | GCP | - | 🔴 No empezado |
 
 ---

@@ -15,7 +15,7 @@ Privilegios con impacto total en el sistema:
 
 | Privilegio | Nota |
 |-----------|------|
-| SeImpersonatePriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/seimpersonatepriv|SeImpersonatePriv]] |
-| SeBackUpPriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/sebackuppriv|SeBackUpPriv]] |
-| SeRestorePriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/serestorepriv|SeRestorePriv]] |
-| SeManageVolumePriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/semanagevolumepriv|SeManageVolumePriv]] |
+| SeImpersonatePriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/seimpersonatepriv\|SeImpersonatePriv]] |
+| SeBackUpPriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/sebackuppriv\|SeBackUpPriv]] |
+| SeRestorePriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/serestorepriv\|SeRestorePriv]] |
+| SeManageVolumePriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/semanagevolumepriv\|SeManageVolumePriv]] |

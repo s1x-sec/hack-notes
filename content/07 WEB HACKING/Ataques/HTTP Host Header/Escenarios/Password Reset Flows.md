@@ -46,5 +46,5 @@ Log del servidor atacante:
 > [!tip] Combinar con email spoofing para mayor credibilidad.
 
 ## Ver también
-- [[Técnicas Host Header]]
-- [[Metodología Host Header]]
+- [[07-web-hacking/ataques/http-host-header/técnicas|Técnicas Host Header]]
+- [[07-web-hacking/ataques/http-host-header/metodología|Metodología Host Header]]

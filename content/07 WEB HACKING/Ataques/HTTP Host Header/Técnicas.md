@@ -73,6 +73,6 @@ Forwarded: host=evil.attacker.com
 > Right-click → Extensions → Param Miner → Guess headers
 
 ## Ver también
-- [[Metodología Host Header]]
+- [[07-web-hacking/ataques/http-host-header/metodología|Metodología Host Header]]
 - [[07-web-hacking/ataques/http-host-header/escenarios/password-reset-flows|Password Reset Flows]]
 - [[07-web-hacking/ataques/http-host-header/escenarios/web-cache-poisoning|Web Cache Poisoning]]

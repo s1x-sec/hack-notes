@@ -38,5 +38,5 @@ Connection: close
 - **ffuf** — para brute force de virtual hosts
 
 ## Ver también
-- [[Técnicas Host Header]]
+- [[07-web-hacking/ataques/http-host-header/técnicas|Técnicas Host Header]]
 - [[07-web-hacking/ataques/http-host-header/escenarios/password-reset-flows|Password Reset Flows]]

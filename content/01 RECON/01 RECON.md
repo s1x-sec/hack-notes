@@ -13,12 +13,12 @@ status: wip
 
 | Técnica |
 | --- |
-| [[01-recon/subdomain-enum|Subdomain Enum]]|
-| [[01-recon/port-scanning|Port Scanning]]|
-| [[01-recon/web-fingerprinting|Web Fingerprinting]]|
-| [[01-recon/osint|OSINT]]|
-| [[01-recon/ad-recon-externo|AD Recon Externo]]|
-| [[01-recon/javascript-recon|JavaScript Recon]]|
+| [[01-recon/subdomain-enum\|Subdomain Enum]]|
+| [[01-recon/port-scanning\|Port Scanning]]|
+| [[01-recon/web-fingerprinting\|Web Fingerprinting]]|
+| [[01-recon/osint\|OSINT]]|
+| [[01-recon/ad-recon-externo\|AD Recon Externo]]|
+| [[01-recon/javascript-recon\|JavaScript Recon]]|
 
 ---
 

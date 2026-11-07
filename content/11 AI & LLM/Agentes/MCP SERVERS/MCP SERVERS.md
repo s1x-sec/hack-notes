@@ -11,7 +11,7 @@ Model Context Protocol — servidores que exponen herramientas a LLMs.
 
 | Nombre | Descripción | Link |
 |--------|-------------|------|
-| mcp_recon | Reconocimiento automatizado | [[11-ai--and--llm/agentes/mcp-servers/mcp_recon|mcp_recon]] |
+| mcp_recon | Reconocimiento automatizado | [[11-ai--and--llm/agentes/mcp-servers/mcp_recon\|mcp_recon]] |
 
 ## Ver también
 - [[11-ai--and--llm/agentes|Agentes]]
