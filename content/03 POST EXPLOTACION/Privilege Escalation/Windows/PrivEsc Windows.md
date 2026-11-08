@@ -26,4 +26,4 @@ tags: [privesc, windows]
 | UAC Bypass | [[03-post-explotacion/privilege-escalation/windows/uac-bypass\|UAC Bypass]] |
 | Local Service Privs | [[03-post-explotacion/privilege-escalation/windows/local-service-privs\|Local Service Privs]] |
 | Living Off The Land | [[03-post-explotacion/privilege-escalation/windows/livingontheland\|LivingOnTheLand]] |
-| windows.old | [[03-post-explotacion/privilege-escalation/windows/windows.old\|windows.old]] |
+| windows.old | [[03-post-explotacion/privilege-escalation/windows/windows.old.md\|windows.old]] |
