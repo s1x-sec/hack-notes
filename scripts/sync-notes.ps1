@@ -24,6 +24,23 @@ function Write-Text([string]$Path, [string]$Text) {
   [System.IO.File]::WriteAllText($Path, $Text, $Utf8NoBom)
 }
 
+# --- 0. Align local repo with remote so pushes stay fast-forward ----------
+# (handles edits made directly on GitHub; content is regenerated from the
+#  vault below, so adopting the remote tip loses nothing.)
+if (-not $NoPush -and (Test-Path -LiteralPath (Join-Path $Repo ".git"))) {
+  Push-Location -LiteralPath $Repo
+  if ((git remote) -contains "origin") {
+    Log "Aligning local repo with origin/main ..."
+    git fetch origin --quiet
+    if ($LASTEXITCODE -eq 0) {
+      git reset --hard origin/main | Out-Null
+    } else {
+      Log "WARNING: git fetch failed (offline?) - continuing with local state."
+    }
+  }
+  Pop-Location
+}
+
 # --- 1. Mirror vault -> content (deletions included), excluding vault config
 Log "Mirroring vault -> content ..."
 # robocopy exit codes 0-7 = success, 8+ = error
