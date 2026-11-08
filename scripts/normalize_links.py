@@ -136,7 +136,11 @@ def process_file(full, rel, src_slug, resolve, write):
                 return mobj.group(0)
             chosen, ambiguous = r
             disp = display if display is not None else tpath.split("/")[-1]
-            newtarget = chosen + ("#" + anchor if anchor else "")
+            # If the slug's last segment has a dot (e.g. "windows.old"), Quartz
+            # misreads ".old" as a file extension and the link breaks from folder
+            # pages. Appending ".md" forces resolution to the markdown note.
+            base = chosen + (".md" if "." in chosen.split("/")[-1] else "")
+            newtarget = base + ("#" + anchor if anchor else "")
             # inside a markdown table the alias pipe MUST be escaped, else it
             # is read as a column separator and breaks the row.
             sep = "\\|" if is_table else "|"
