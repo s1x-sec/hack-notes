@@ -20,4 +20,4 @@ Repo: https://github.com/mgeeky/PackMyPayload
 ## Ver también
 - [[02-initial-access/triggers|Triggers]]
 - [[02-initial-access/payloads|Payloads]]
-- [[02-initial-access/phishing/delivery|Delivery]]
+- [[02-initial-access/técnicas/delivery|Delivery]]
