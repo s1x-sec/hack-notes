@@ -65,4 +65,4 @@ beacon> execute-assembly Rubeus.exe asktgt \
 
 - [[05-ad-attacks/ataques/golden-ticket|Golden Ticket]] — equivalente con krbtgt
 - [[05-ad-attacks/credential-access/dpapi|DPAPI]] — otra técnica de persistencia a nivel dominio
-- [[05-ad-attacks/adcs/adcs---introducción|ADCS - Introducción]]
+- [[05-ad-attacks/adcs|ADCS]]

@@ -67,4 +67,4 @@ beacon> execute-assembly Certify.exe request \
 ## Ver también
 
 - [[05-ad-attacks/adcs/esc1---client-auth-templates|ESC1 - Client Auth Templates]] — técnica que se activa después de modificar
-- [[05-ad-attacks/adcs/adcs---introducción|ADCS - Introducción]]
+- [[05-ad-attacks/adcs|ADCS]]

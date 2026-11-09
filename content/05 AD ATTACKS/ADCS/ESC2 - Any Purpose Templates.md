@@ -37,4 +37,4 @@ Dependiendo de los flags del template:
 
 - [[05-ad-attacks/adcs/esc1---client-auth-templates|ESC1 - Client Auth Templates]]
 - [[05-ad-attacks/adcs/esc3---certificate-request-agent|ESC3 - Certificate Request Agent]]
-- [[05-ad-attacks/adcs/adcs---introducción|ADCS - Introducción]]
+- [[05-ad-attacks/adcs|ADCS]]

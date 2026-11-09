@@ -98,4 +98,4 @@ beacon> execute-assembly Rubeus.exe s4u \
 ## Ver también
 
 - [[05-ad-attacks/kerberos/s4u2self|S4U2Self]] — usar TGT de máquina para obtener ST como admin
-- [[05-ad-attacks/adcs/adcs---introducción|ADCS - Introducción]]
+- [[05-ad-attacks/adcs|ADCS]]

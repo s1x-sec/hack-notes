@@ -64,6 +64,6 @@ beacon> ls \\lon-dc-1\c$
 
 ## Ver también
 
-- [[05-ad-attacks/adcs/adcs---introducción|ADCS - Introducción]]
+- [[05-ad-attacks/adcs|ADCS]]
 - [[05-ad-attacks/adcs/esc3---certificate-request-agent|ESC3 - Certificate Request Agent]] — variante con Request Agent EKU
 - [[05-ad-attacks/adcs/esc4---template-access-control|ESC4 - Template Access Control]] — modificar template para convertirlo en ESC1

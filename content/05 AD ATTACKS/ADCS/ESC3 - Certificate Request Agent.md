@@ -67,4 +67,4 @@ beacon> execute-assembly Rubeus.exe asktgt \
 
 - [[05-ad-attacks/adcs/esc1---client-auth-templates|ESC1 - Client Auth Templates]]
 - [[05-ad-attacks/adcs/esc2---any-purpose-templates|ESC2 - Any Purpose Templates]] — con Any Purpose se puede usar como Request Agent
-- [[05-ad-attacks/adcs/adcs---introducción|ADCS - Introducción]]
+- [[05-ad-attacks/adcs|ADCS]]

@@ -60,9 +60,9 @@ status: wip
 
 ## ADCS & Trusts
 
-| Área | Nota |
-|------|------|
-| ADCS — ESC1-8 | [[05-ad-attacks/adcs\|ADCS]] |
+| Área                   | Nota              |
+| ---------------------- | ----------------- |
+| ADCS — ESC1-8          | [[05-ad-attacks/adcs\|ADCS]]     |
 | Forest & Domain Trusts | [[05-ad-attacks/trusts\|Trusts]] |
 
 ---
