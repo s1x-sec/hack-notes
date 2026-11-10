@@ -22,7 +22,7 @@ El acceso inicial en un ejercicio de Red Team puede encontrarse en:
 
 ## Ver también
 - [[02-initial-access/phishing/delivery|Delivery]]
-- [[02-initial-access/payloads/droppers|Droppers]]
+- [[02-initial-access/técnicas/droppers|Droppers]]
 - [[02-initial-access/payloads|Payloads]]
 - [[02-initial-access/containers|Containers]]
 - [[02-initial-access/triggers|Triggers]]
