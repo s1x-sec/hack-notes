@@ -1,6 +1,6 @@
 ---
 tags: [cloud]
-status: pendiente
+status: wip
 ---
 
 # CLOUD HACKING
@@ -14,7 +14,7 @@ status: pendiente
 | Plataforma | Nota | Estado |
 |------------|------|--------|
 | AWS | [[09-cloud/aws\|AWS]] | 🔴 Vacío |
-| Azure | [[09-cloud/azure\|Azure]] | 🔴 Vacío |
+| Azure | [[09-cloud/azure\|Azure]] | 🟡 WIP |
 | GCP | - | 🔴 No empezado |
 
 ---
@@ -22,7 +22,7 @@ status: pendiente
 ## Herramientas
 
 - **AWS:** `aws cli`, `pacu` (framework ofensivo AWS), `cloudmapper`, `prowler`
-- **Azure:** `az cli`, `roadtools`, `stormspotter`, `bloodhound-ce` (Azure integración)
+- **Azure:** `az cli`, `roadtools`, `AADInternals`, `GraphRunner`, `bloodhound-ce` (Azure integración)
 - **GCP:** `gcloud`, `gcp_scanner`
 
 ---
@@ -32,5 +32,5 @@ status: pendiente
 - SSRF → IMDSv1 (AWS metadata en 169.254.169.254)
 - IAM privilege escalation
 - S3 bucket misconfiguration
-- Azure AD attacks
+- ~~Azure AD attacks~~ → ver [[09-cloud/azure|Azure]]
 
