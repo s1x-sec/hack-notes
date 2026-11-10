@@ -52,6 +52,7 @@ Usuario → AVD Web/App Client → AVD Gateway (Azure) → RDP Shortpath/Reverse
 | [[09-cloud/azure/avd---breakout\|AVD - Breakout]] | Escape de RemoteApp, kiosk, AppLocker | 🟡 WIP |
 | [[09-cloud/azure/avd---lateral-movement\|AVD - Lateral Movement]] | Pivoting desde session hosts a Azure y red interna | 🟡 WIP |
 | [[09-cloud/azure/avd---persistencia\|AVD - Persistencia]] | FSLogix abuse, startup scripts, scheduled tasks | 🟡 WIP |
+| [[09-cloud/azure/avd---code-review-y-config-audit\|AVD - Code Review y Config Audit]] | Revisión de IaC, CA policies, FSLogix, RBAC, secrets | 🟡 WIP |
 
 ---
 

@@ -20,6 +20,7 @@ status: wip
 | AVD — Breakout | [[09-cloud/azure/avd---breakout\|AVD - Breakout]] | 🟡 WIP |
 | AVD — Lateral Movement | [[09-cloud/azure/avd---lateral-movement\|AVD - Lateral Movement]] | 🟡 WIP |
 | AVD — Persistencia | [[09-cloud/azure/avd---persistencia\|AVD - Persistencia]] | 🟡 WIP |
+| AVD — Code Review y Config Audit | [[09-cloud/azure/avd---code-review-y-config-audit\|AVD - Code Review y Config Audit]] | 🟡 WIP |
 
 ---
 
