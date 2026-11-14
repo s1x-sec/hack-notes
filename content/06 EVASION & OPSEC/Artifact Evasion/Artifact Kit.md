@@ -13,25 +13,39 @@ platform: windows
 ## Flujo de Trabajo
 
 ```
-1. ThreatCheck → identifica bytes que disparan la firma
-2. Ghidra → localizar el offset exacto en el .c del Artifact Kit
-3. Modificar el .c → cambiar el byte/bloque problemático
-4. Recompilar → nuevo artifact_kit.cna
-5. Cargar en CS → Script Manager → artifact_kit.cna
+1. Con build.sh se construyen las plantillas
+2. ThreatCheck → identifica bytes que disparan la firma
+3. Ghidra → localizar el offset exacto en el .c del Artifact Kit
+4. Modificar el .c → cambiar el byte/bloque problemático
+5. Recompilar → nuevo artifact_kit.cna
+6. Cargar en CS → Script Manager → artifact_kit.cna
 ```
 
 ---
+## 1. Buildsh para construir los artefactos
+
+Tiene que ser desde WSL
+
+![[Pasted image 20261114135611.png]]
+
+```
+./build.sh mailslot VirtualAlloc 344564 0 false false none /mnt/c/Tools/cobaltstrike/custom-artifacts
+```
 
 ## 1. ThreatCheck — Identificar la firma
 
 ```powershell
 # Escanear el artefacto generado por CS
+C:\Tools\ThreatCheck\ThreatCheck\bin\Debug\ThreatCheck.exe -f .\artifact64big.exe
+
 ThreatCheck.exe -f artifact64.exe
 ThreatCheck.exe -f artifact64.exe -e Defender    # Motor específico
 
 # Output: "Bad bytes found" + offset hex donde está la detección
 # Ejemplo: Offset: 0x1234  Length: 16
 ```
+
+![[Pasted image 20261114135919.png]]
 
 ---
 
@@ -43,6 +57,12 @@ ThreatCheck.exe -f artifact64.exe -e Defender    # Motor específico
 3. Identificar la función/lógica que genera esos bytes
 4. Localizar la función equivalente en el código fuente (.c del Kit)
 ```
+
+Navigation -- Goto
+
+![[Pasted image 20261114140645.png]]
+
+
 
 → Ver [[12-tools--and--referencia/ghidra|Ghidra]] para workflow detallado de Ghidra.
 
