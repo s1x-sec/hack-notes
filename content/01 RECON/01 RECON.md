@@ -18,7 +18,7 @@ status: wip
 | [[01-recon/web-fingerprinting\|Web Fingerprinting]]|
 | [[01-recon/osint\|OSINT]]|
 | [[01-recon/ad-recon-externo\|AD Recon Externo]]|
-| [[01-recon/javascript-recon\|JavaScript Recon]]|
+| [[07 WEB HACKING/Enumeracion/JavaScript Recon|JavaScript Recon]]|
 
 ---
 
@@ -85,7 +85,7 @@ gobuster dir -u https://target.com \
 
 ## JavaScript Recon
 
-→ Ver [[01-recon/javascript-recon|JavaScript Recon]] para workflow completo.
+→ Ver [[07 WEB HACKING/Enumeracion/JavaScript Recon|JavaScript Recon]] para workflow completo.
 
 ```bash
 # Rápido

@@ -1,6 +1,6 @@
 ---
 tags: [cloud]
-status: wip
+status: pendiente
 ---
 
 # CLOUD HACKING
@@ -14,7 +14,7 @@ status: wip
 | Plataforma | Nota | Estado |
 |------------|------|--------|
 | AWS | [[09-cloud/aws\|AWS]] | 🔴 Vacío |
-| Azure | [[09-cloud/azure\|Azure]] | 🟡 WIP |
+| Azure | [[09-cloud/azure\|Azure]] | 📝 Pendiente |
 | GCP | - | 🔴 No empezado |
 
 ---

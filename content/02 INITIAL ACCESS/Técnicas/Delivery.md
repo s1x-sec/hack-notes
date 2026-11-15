@@ -98,3 +98,23 @@ Archivo `.svg` que ejecuta JavaScript para descargar el payload.
   </script>
 </svg>
 ```
+
+---
+
+## Site Cloning simple (Web Drive-by)
+
+Para un clonado rápido sin hostear archivo por separado:
+
+```
+Attacks → Web Drive-by → Clone Site
+  URL to clone: https://target-login-page.com
+  Local URI: /
+  Local host/port: 0.0.0.0:80
+```
+
+## OPSEC de infraestructura de phishing
+
+> Los dominios de phishing deben tener:
+> - Certificado TLS válido (Let's Encrypt)
+> - Categorización previa (registrar con 30+ días de antelación)
+> - Mailserver SPF/DKIM/DMARC configurados para evitar spam filters

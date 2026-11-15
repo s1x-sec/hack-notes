@@ -84,3 +84,15 @@ rg -i "(username|user|pass(word)?|pwd)\s*[:=]\s*['\"][^'\"]{3,}" js_files/
 rg "10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|172\.(1[6-9]|2[0-9]|3[01])\.\d+" js_files/
 ```
 
+
+## Descubrimiento Alternativo de URLs JS
+
+```bash
+# Desde URLs históricas ya recolectadas (gau)
+cat gau_urls.txt | grep -E "\.js(\?[^/]*)?$" | sort -u > js_urls.txt
+
+# Extraer JS directamente de hosts vivos
+cat live_hosts.txt | subjs -c 40 > js_urls.txt
+```
+
+> Muchos archivos JS están minificados. Usar `js-beautify` o extensiones del navegador para estructurarlos antes de revisión manual.

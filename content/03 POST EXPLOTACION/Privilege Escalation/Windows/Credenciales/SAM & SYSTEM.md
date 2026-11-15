@@ -32,3 +32,16 @@ dir %SYSTEMROOT%\System32\config\RegBack\system
 impacket-secretsdump -sam SAM -system SYSTEM local
 ```
 
+
+## Windows.old
+
+Si existe una carpeta `Windows.old` (restos de una actualización previa del SO), puede contener una copia de SAM y SYSTEM de la instalación anterior.
+
+```
+C:\Windows.old\Windows\System32\SAM
+C:\Windows.old\Windows\System32\SYSTEM
+```
+
+```bash
+impacket-secretsdump -sam SAM -system SYSTEM local
+```

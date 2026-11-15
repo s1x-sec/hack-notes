@@ -17,11 +17,11 @@ tags: [post-explotacion]
 
 ## Credential Access
 
-| Técnica | Nota |
-|---------|------|
+| Técnica                                    | Nota                                        |
+| ------------------------------------------ | ------------------------------------------- |
 | OS Credential Dumping (LSASS, SAM, DCSync) | [[03-post-explotacion/credential-access/os-credential-dumping\|OS Credential Dumping]] |
-| Kerberos Tickets (Rubeus, BOFs) | [[03-post-explotacion/credential-access/kerberos-tickets\|Kerberos Tickets]] |
-| Cracking (hashcat) | [[03-post-explotacion/cracking\|Cracking]] |
+| Kerberos Tickets (Rubeus, BOFs)            | [[05-ad-attacks/credential-access/kerberos-tickets\|Kerberos Tickets]]                        |
+| Cracking (hashcat)                         | [[03-post-explotacion/cracking\|Cracking]]                                |
 
 ---
 
@@ -75,7 +75,6 @@ tags: [post-explotacion]
 | UAC Bypass | [[03-post-explotacion/privilege-escalation/windows/uac-bypass\|UAC Bypass]] |
 | Local Service Privs | [[03-post-explotacion/privilege-escalation/windows/local-service-privs\|Local Service Privs]] |
 | Living Off the Land | [[03-post-explotacion/privilege-escalation/windows/livingontheland\|LivingOnTheLand]] |
-| windows.old | [[03-post-explotacion/privilege-escalation/windows/windows.old.md\|windows.old]] |
 
 ---
 

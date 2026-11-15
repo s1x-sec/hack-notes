@@ -1,6 +1,6 @@
 ---
 tags: [cloud, azure, azure-ad]
-status: wip
+status: pendiente
 ---
 
 # Azure / Entra ID
@@ -13,14 +13,14 @@ status: wip
 
 | Tema | Nota | Estado |
 |------|------|--------|
-| **Azure Virtual Desktop** | [[09-cloud/azure/azure-virtual-desktop\|Azure Virtual Desktop]] | 🟡 WIP |
-| AVD — Enumeración | [[09-cloud/azure/avd---enumeración\|AVD - Enumeración]] | 🟡 WIP |
-| AVD — Acceso Inicial | [[09-cloud/azure/avd---acceso-inicial\|AVD - Acceso Inicial]] | 🟡 WIP |
-| AVD — Session Host Attacks | [[09-cloud/azure/avd---session-host-attacks\|AVD - Session Host Attacks]] | 🟡 WIP |
-| AVD — Breakout | [[09-cloud/azure/avd---breakout\|AVD - Breakout]] | 🟡 WIP |
-| AVD — Lateral Movement | [[09-cloud/azure/avd---lateral-movement\|AVD - Lateral Movement]] | 🟡 WIP |
-| AVD — Persistencia | [[09-cloud/azure/avd---persistencia\|AVD - Persistencia]] | 🟡 WIP |
-| AVD — Code Review y Config Audit | [[09-cloud/azure/avd---code-review-y-config-audit\|AVD - Code Review y Config Audit]] | 🟡 WIP |
+| **Azure Virtual Desktop** | [[09-cloud/azure/azure-virtual-desktop\|Azure Virtual Desktop]] | 📝 Pendiente |
+| AVD — Enumeración | [[09-cloud/azure/avd---enumeración\|AVD - Enumeración]] | 📝 Pendiente |
+| AVD — Acceso Inicial | [[09-cloud/azure/avd---acceso-inicial\|AVD - Acceso Inicial]] | 📝 Pendiente |
+| AVD — Session Host Attacks | [[09-cloud/azure/avd---session-host-attacks\|AVD - Session Host Attacks]] | 📝 Pendiente |
+| AVD — Breakout | [[09-cloud/azure/avd---breakout\|AVD - Breakout]] | 📝 Pendiente |
+| AVD — Lateral Movement | [[09-cloud/azure/avd---lateral-movement\|AVD - Lateral Movement]] | 📝 Pendiente |
+| AVD — Persistencia | [[09-cloud/azure/avd---persistencia\|AVD - Persistencia]] | 📝 Pendiente |
+| AVD — Code Review y Config Audit | [[09-cloud/azure/avd---code-review-y-config-audit\|AVD - Code Review y Config Audit]] | 📝 Pendiente |
 
 ---
 

