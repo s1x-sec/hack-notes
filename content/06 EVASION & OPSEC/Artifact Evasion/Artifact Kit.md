@@ -57,7 +57,7 @@ ThreatCheck.exe -f artifact64.exe -e Defender    # Motor específico
 4. Localizar la función equivalente en el código fuente (.c del Kit)
 ```
 
-Navigation -- Goto
+Navigation --> Goto
 
 ![[Pasted image 20261114140645.png]]
 
