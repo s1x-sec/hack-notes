@@ -1,6 +1,5 @@
 ---
 tags: [web, waf, bypass]
-status: done
 ---
 
 # WAF Bypass

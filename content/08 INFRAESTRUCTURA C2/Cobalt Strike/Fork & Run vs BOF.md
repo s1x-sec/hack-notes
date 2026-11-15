@@ -1,6 +1,5 @@
 ---
 tags: [c2, cobalt-strike, fork-run, bof, opsec]
-status: done
 ---
 
 # Fork & Run vs BOF (Inline)

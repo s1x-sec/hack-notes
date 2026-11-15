@@ -1,6 +1,5 @@
 ---
 tags: [web, rev-shell, rce]
-status: done
 platform: linux
 ---
 

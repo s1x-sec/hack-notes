@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "recon",
+      "type": "text",
+      "text": "## 01 Recon\n\n- [[Port Scanning]]\n- [[Subdomain Enum]]\n- [[Web Directory Enum]]\n- [[Web Fingerprinting]]\n- [[Parameter Discovery]]\n- [[AD Recon Externo]]\n- [[OSINT]]",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 260,
+      "color": "#2d7d46"
+    },
+    {
+      "id": "initial",
+      "type": "text",
+      "text": "## 02 Initial Access\n\n- [[Introducción]]\n- [[Payloads]] · [[Payloads Avanzados]]\n- [[Triggers]]\n- [[Delivery]] · [[Droppers]]\n- [[Containers]]",
+      "x": 460,
+      "y": 0,
+      "width": 400,
+      "height": 260,
+      "color": "#d97706"
+    },
+    {
+      "id": "postex-privesc-win",
+      "type": "text",
+      "text": "## 03 Post-Ex — PrivEsc Windows\n\n- [[PrivEsc Windows]]\n- [[DLL Hijacking]] · [[Binary Hijacking]]\n- [[UAC Bypass]] · [[MIC y UAC]]\n- [[Servicios Windows]] · [[Weak Windows Services]]\n- [[Privilegios Windows]] · [[SeImpersonatePriv]] · [[SeBackUpPriv]] · [[SeRestorePriv]] · [[SeManageVolumePriv]]\n- [[PATH Environment Variable]] · [[Search Order Hijacking]] · [[Unquoted Paths]]\n- [[Local Service Privs]] · [[Schtasks]]\n- [[Credenciales Windows]] · [[SAM & SYSTEM]] · [[CredManager]] · [[AutoLogon]]\n- [[LivingOnTheLand]]",
+      "x": 920,
+      "y": 0,
+      "width": 440,
+      "height": 440,
+      "color": "#7c3aed"
+    },
+    {
+      "id": "postex-privesc-lin",
+      "type": "text",
+      "text": "## 03 Post-Ex — PrivEsc Linux\n\n- [[Linux PrivEsc]]\n- [[SETUID Linux]]\n- [[Path Abuse Linux]]\n- [[Wildcard Abuse]]\n- [[Shell Restrictiva]]\n- [[Búsqueda de Credenciales Linux]]\n- [[Grupos Linux]] · [[Docker]] · [[LXC-LXD]] · [[Disk]] · [[ADM]]",
+      "x": 1420,
+      "y": 0,
+      "width": 400,
+      "height": 340,
+      "color": "#7c3aed"
+    },
+    {
+      "id": "postex-persist",
+      "type": "text",
+      "text": "## 03 Post-Ex — Persistencia\n\n- [[Persistencia]]\n- [[Registry Keys & Startup Folder]]\n- [[Scheduled Tasks CS]] · [[Scheduled Task (Advanced)]]\n- [[COM Hijacking]]\n- [[PowerShell Profile]]\n- [[Logon Scripts]]\n- [[Windows Service]]\n- [[WMI Eventing]] · [[WMI Queries]] · [[WMI Remote Triggers]]",
+      "x": 0,
+      "y": 320,
+      "width": 440,
+      "height": 380,
+      "color": "#7c3aed"
+    },
+    {
+      "id": "postex-cs",
+      "type": "text",
+      "text": "## 03 Post-Ex — CS Post-Ex\n\n- [[Execution Commands]]\n- [[Executing Custom Tools]]\n- [[Downloading Files]]\n- [[File System]]\n- [[Processes]]\n- [[Registry]]\n- [[Keylogger]]\n- [[Screenshots]]\n- [[Clipboard]]\n- [[VNC]]\n- [[Session Passing]]",
+      "x": 500,
+      "y": 320,
+      "width": 360,
+      "height": 380,
+      "color": "#7c3aed"
+    },
+    {
+      "id": "postex-other",
+      "type": "text",
+      "text": "## 03 Post-Ex — Otros\n\n- [[OS Credential Dumping]] · [[Cracking]]\n- [[Transferencia Windows]]\n- [[Transferencia Linux]]",
+      "x": 1420,
+      "y": 400,
+      "width": 400,
+      "height": 180,
+      "color": "#7c3aed"
+    },
+    {
+      "id": "lateral",
+      "type": "text",
+      "text": "## 04 Lateral Movement\n\n- [[User Impersonation]]\n  - [[Pass the Hash]] · [[Pass The Ticket]] · [[Token Impersonation]]\n- [[Jump y Remote-Exec]]\n- [[PsExec]] · [[Windows Remote Management]]\n- [[Pivoting]] · [[Pivoting con Cobalt]] · [[Ligolo-ng]]\n- [[Port Forwarding - SSH]]\n- [[Reverse Port Forward Cobalt Strike]]\n- [[LOLBAS]]\n- [[Custom Techniques]]\n- [[Security Logon Types]]\n- [[Credentials from Web Browsers]]\n- [[Windows Credential Manager]]",
+      "x": 920,
+      "y": 500,
+      "width": 440,
+      "height": 440,
+      "color": "#dc2626"
+    },
+    {
+      "id": "ad-kerberos",
+      "type": "text",
+      "text": "## 05 AD — Kerberos\n\n- [[Kerberos]]\n- [[Kerberoasting]] · [[AS-REP Roasting]]\n- [[Constrained Delegation]] · [[Unconstrained Delegation]]\n- [[RBCD]] · [[S4U2Self]]\n- [[Lateral Movement Services (CS)]]\n- [[Service Name Substitution (CS)]]",
+      "x": 0,
+      "y": 760,
+      "width": 440,
+      "height": 320,
+      "color": "#0891b2"
+    },
+    {
+      "id": "ad-adcs",
+      "type": "text",
+      "text": "## 05 AD — ADCS\n\n- [[ADCS]]\n- [[ESC1 - Client Auth Templates]]\n- [[ESC2 - Any Purpose Templates]]\n- [[ESC3 - Certificate Request Agent]]\n- [[ESC4 - Template Access Control]]\n- [[ESC8 - NTLM Relay ADCS]]\n- [[Golden Certificates (DPERSIST1)]]",
+      "x": 500,
+      "y": 760,
+      "width": 360,
+      "height": 300,
+      "color": "#0891b2"
+    },
+    {
+      "id": "ad-attacks",
+      "type": "text",
+      "text": "## 05 AD — Ataques\n\n- [[DCSync]]\n- [[Golden Ticket]] · [[Silver Ticket]]\n- [[Envenenamiento Responder]]\n- [[RunAS]]",
+      "x": 0,
+      "y": 1140,
+      "width": 440,
+      "height": 220,
+      "color": "#0891b2"
+    },
+    {
+      "id": "ad-discovery",
+      "type": "text",
+      "text": "## 05 AD — Discovery\n\n- [[Enumeración AD]]\n- [[LDAP Discovery]] · [[LDAP Avanzado (Cobalt)]]\n- [[BOFHound]]\n- [[Default Domain Policy]]\n- [[Force Password Change]]\n- [[Generic Write Sobre Usuario]]\n- [[GenericAll DC]]\n- [[ReadGMSAPassword]]\n- [[Resourced Based Constrained Delegation]]\n- [[DPAPI]] · [[Kerberos Tickets]]",
+      "x": 920,
+      "y": 1000,
+      "width": 440,
+      "height": 340,
+      "color": "#0891b2"
+    },
+    {
+      "id": "evasion",
+      "type": "text",
+      "text": "## 06 Evasión & OPSEC\n\n**Artifact Evasion**\n- [[Artifact Kit]] · [[Script Artifact]]\n- [[Command Line Detections]]\n\n**Memory Evasion**\n- [[Beacon Memory]] · [[Beacon Memory CRTO]]\n- [[Sleep Obfuscation]]\n\n**Process Injection**\n- [[Process Injection]] · [[Process Injection Avanzado]]\n- [[PPID Spoofing]]\n\n- [[Funcionamiento de EDR]]\n- [[Malware Essentials]]\n- [[NET y PInvoke]]",
+      "x": 1420,
+      "y": 640,
+      "width": 400,
+      "height": 400,
+      "color": "#ca8a04"
+    },
+    {
+      "id": "web",
+      "type": "text",
+      "text": "## 07 Web Hacking\n\n- [[SQL Injection]] · [[XSS]] · [[SSTI]] · [[XXE]]\n- [[Deserializacion]] · [[File Upload]]\n- [[SSRF]] · [[Path Traversal]]\n- [[OAuth y JWT]] · [[GraphQL]]\n- [[API Hacking]]\n- [[WAF Bypass]]\n\n**HTTP Host Header**\n- [[Metodología]] · [[Técnicas]]\n- [[Password Reset Flows]] · [[Auth Bypass via Host Header]]\n- [[Routing Based SSRF]] · [[Web Cache Poisoning]]\n- [[Virtual Host Brute Forcing]] · [[Accessing Restricted Functions]]\n\n**Enum:** [[Subdominios]] · [[JavaScript Recon]] · [[Filtrado]] · [[Rev Shell]]\n**Tools:** [[SQLMap]] · [[Dalfox]] · [[Arjun]] · [[Katana]] · [[feroxbuster]]",
+      "x": 1420,
+      "y": 1100,
+      "width": 400,
+      "height": 460,
+      "color": "#2563eb"
+    },
+    {
+      "id": "c2",
+      "type": "text",
+      "text": "## 08 Infraestructura C2\n\n- [[Listeners]]\n- [[Beacons]] · [[Generar Payloads]] · [[Interactuar con Beacons]]\n- [[Malleable C2]]\n- [[Fork & Run vs BOF]]\n\n**Beacon Cheatsheet**\n- [[Inline Commands (BOF)]]\n- [[Fork & Run Commands]]\n- [[Process Execution Commands]]\n- [[API-Only Commands]]\n- [[House-Keeping Commands]]\n- [[Service Creations]]",
+      "x": 0,
+      "y": 1420,
+      "width": 440,
+      "height": 360,
+      "color": "#9333ea"
+    },
+    {
+      "id": "cloud",
+      "type": "text",
+      "text": "## 09 Cloud\n\n**Azure / Entra ID**\n- [[Azure]] · [[Azure Virtual Desktop]]\n- [[AVD - Enumeración]]\n- [[AVD - Acceso Inicial]]\n- [[AVD - Session Host Attacks]]\n- [[AVD - Breakout]]\n- [[AVD - Lateral Movement]]\n- [[AVD - Persistencia]]\n- [[AVD - Code Review y Config Audit]]\n\n**AWS**\n- [[AWS]]",
+      "x": 500,
+      "y": 1420,
+      "width": 360,
+      "height": 360,
+      "color": "#0d9488"
+    },
+    {
+      "id": "mobile",
+      "type": "text",
+      "text": "## 10 Mobile\n\n**Android:** [[Android]] · [[Teoría Android]] · [[ADB]] · [[Rootear Telefono]]\n**iOS:** [[iOS]]",
+      "x": 920,
+      "y": 1420,
+      "width": 440,
+      "height": 200,
+      "color": "#e11d48"
+    },
+    {
+      "id": "ai",
+      "type": "text",
+      "text": "## 11 AI & LLM\n\n- [[Indirect Prompt Injection]]\n- [[LLM API Attack Surface]]\n- [[Chaining Vulnerabilities]]\n- [[Agentes]] · [[MCP SERVERS]] · [[mcp_recon]]",
+      "x": 920,
+      "y": 1680,
+      "width": 440,
+      "height": 200,
+      "color": "#ea580c"
+    },
+    {
+      "id": "tools",
+      "type": "text",
+      "text": "## 12 Tools & Referencia\n\n- [[nmap]] · [[Ghidra]] · [[Invoke-Obfuscation]]\n- [[Reverse Shells]]\n\n**Puertos**\n[[21 FTP]] · [[22 SSH]] · [[25 SMTP]] · [[80-443 Web]] · [[88 Kerberos]] · [[135 RPC]] · [[161 SNMP]] · [[389 LDAP]] · [[445 SMB]] · [[1433 MSSQL]] · [[3128 Squid]] · [[5432 PostgreSQL]] · [[5437 PostgreSQL]] · [[6379 Redis]]",
+      "x": 0,
+      "y": 1840,
+      "width": 440,
+      "height": 340,
+      "color": "#64748b"
+    },
+    {
+      "id": "ad-trusts",
+      "type": "text",
+      "text": "## 05 AD — Trusts\n\n- [[Trusts]]\n- [[Parent-Child Trusts]]\n- [[Inbound Trusts]] · [[Outbound Trusts]]\n- [[Inter-Realm Tickets]]",
+      "x": 500,
+      "y": 1120,
+      "width": 360,
+      "height": 220,
+      "color": "#0891b2"
+    }
+  ],
+  "edges": []
+}

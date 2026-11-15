@@ -1,6 +1,5 @@
 ---
 tags: [ad, discovery, bloodhound, bofhound, ldap, opsec]
-status: done
 platform: windows
 ---
 

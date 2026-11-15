@@ -1,6 +1,5 @@
 ---
 tags: [persistencia, persistence]
-status: wip
 platform: windows
 ---
 

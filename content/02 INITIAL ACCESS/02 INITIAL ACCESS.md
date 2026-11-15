@@ -1,6 +1,5 @@
 ---
 tags: [initial-access]
-status: wip
 ---
 
 # INITIAL ACCESS

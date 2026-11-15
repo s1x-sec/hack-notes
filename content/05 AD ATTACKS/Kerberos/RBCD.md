@@ -1,11 +1,9 @@
 ---
 tags: [ad, kerberos, rbcd, delegation, impacket, cobalt-strike]
-status: completo
 ---
 
 # Resource-Based Constrained Delegation (RBCD)
 
-> 🔴 Por completar con experiencia de campo.
 
 ---
 

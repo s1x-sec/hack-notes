@@ -1,6 +1,5 @@
 ---
 tags: [cloud, azure, avd, recon, enumeration]
-status: wip
 ---
 
 # AVD — Enumeración

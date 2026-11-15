@@ -1,6 +1,5 @@
 ---
 tags: [web, recon, subdominios, enumeracion]
-status: done
 ---
 
 # Descubrimiento de Subdominios

@@ -1,6 +1,5 @@
 ---
 tags: [tool, nmap, recon, network]
-status: done
 ---
 
 # nmap

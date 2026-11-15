@@ -1,6 +1,5 @@
 ---
 tags: [web, recon, httpx, filtrado]
-status: done
 ---
 
 # Filtrado de Hosts Vivos

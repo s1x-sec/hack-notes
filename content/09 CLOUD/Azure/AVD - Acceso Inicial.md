@@ -1,6 +1,5 @@
 ---
 tags: [cloud, azure, avd, initial-access, credential-theft, conditional-access]
-status: wip
 ---
 
 # AVD — Acceso Inicial

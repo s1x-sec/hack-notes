@@ -1,6 +1,5 @@
 ---
 tags: [web, xss, dalfox, automatización]
-status: done
 ---
 
 # Dalfox — Automatización de XSS

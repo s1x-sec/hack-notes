@@ -1,7 +1,6 @@
 ---
 title: HACK NOTES
 tags: [home, index]
-status: done
 ---
 
 # HACK NOTES
@@ -26,9 +25,3 @@ status: done
 | 10 | Mobile | [[10 MOBILE]] |
 | 11 | AI & LLM | [[11 AI & LLM]] |
 | 12 | Tools & Referencia | [[12 TOOLS & REFERENCIA]] |
-
----
-
-## NOTAS EN PROGRESO
-
-> [!info] Vista dinamica (Dataview) - disponible solo en Obsidian.

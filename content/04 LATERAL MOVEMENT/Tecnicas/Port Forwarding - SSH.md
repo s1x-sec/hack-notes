@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, pivoting, ssh, port-forwarding]
-status: done
 platform: linux
 ---
 

@@ -1,6 +1,5 @@
 ---
 tags: [ports, snmp, udp]
-status: done
 ---
 
 # 161 UDP — SNMP

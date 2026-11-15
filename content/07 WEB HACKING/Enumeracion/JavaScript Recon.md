@@ -1,6 +1,5 @@
 ---
 tags: [web, recon, javascript, secrets]
-status: done
 ---
 
 # JavaScript Recon

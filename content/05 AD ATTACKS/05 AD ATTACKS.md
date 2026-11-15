@@ -1,6 +1,5 @@
 ---
 tags: [active-directory]
-status: wip
 ---
 
 # ACTIVE DIRECTORY ATTACKS

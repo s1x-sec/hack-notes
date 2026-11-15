@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, logon-types, double-hop, opsec]
-status: done
 platform: windows
 ---
 

@@ -1,6 +1,5 @@
 ---
 tags: [tools, referencia]
-status: wip
 ---
 
 # TOOLS & REFERENCIA

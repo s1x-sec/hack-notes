@@ -1,6 +1,5 @@
 ---
 tags: [ad, kerberos, s4u, computer-takeover, unconstrained-delegation]
-status: completo
 ---
 
 # S4U2Self — Computer Takeover

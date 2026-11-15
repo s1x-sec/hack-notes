@@ -1,6 +1,5 @@
 ---
 tags: [evasion, opsec, cobalt-strike, memory, crto]
-status: done
 platform: windows
 ---
 

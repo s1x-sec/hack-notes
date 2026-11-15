@@ -1,11 +1,9 @@
 ---
 tags: [mobile, ios]
-status: pendiente
 ---
 
 # iOS
 
-> 🔴 Por completar con experiencia de campo.
 
 ---
 

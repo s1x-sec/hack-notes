@@ -1,6 +1,5 @@
 ---
 tags: [initial-access, payload, evasion]
-status: done
 platform: windows
 ---
 

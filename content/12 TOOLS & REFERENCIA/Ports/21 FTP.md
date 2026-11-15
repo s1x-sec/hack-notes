@@ -1,6 +1,5 @@
 ---
 tags: [ports, ftp]
-status: done
 ---
 
 # 21 — FTP

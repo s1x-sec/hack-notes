@@ -1,6 +1,5 @@
 ---
 tags: [ad, trusts, outbound-trust, inter-realm, mimikatz]
-status: completo
 ---
 
 # Outbound Trusts

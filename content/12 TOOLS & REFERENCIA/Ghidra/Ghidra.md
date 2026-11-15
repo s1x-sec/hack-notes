@@ -1,6 +1,5 @@
 ---
 tags: [tools, ghidra, reverse-engineering, threatcheck]
-status: done
 ---
 
 # Ghidra — Workflow para Evasión

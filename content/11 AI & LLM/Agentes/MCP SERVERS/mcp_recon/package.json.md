@@ -1,6 +1,5 @@
 ---
 tags: [ai, mcp, recon, nodejs]
-status: done
 ---
 
 # package.json — recon-mcp

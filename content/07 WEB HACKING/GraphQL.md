@@ -1,6 +1,5 @@
 ---
 tags: [web, graphql, api]
-status: done
 ---
 
 # GraphQL

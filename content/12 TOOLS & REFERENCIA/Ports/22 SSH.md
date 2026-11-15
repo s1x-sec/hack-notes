@@ -1,6 +1,5 @@
 ---
 tags: [ports, ssh]
-status: done
 ---
 
 # 22 — SSH

@@ -5,7 +5,6 @@ tags: [kerberos, cobalt-strike, lateral-movement]
 
 # Lateral Movement Services via Kerberos
 
-> [!important] Pendiente de documentar — contenido vacío en el vault original.
 
 ## Concepto
 

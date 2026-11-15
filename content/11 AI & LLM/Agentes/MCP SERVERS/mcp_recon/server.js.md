@@ -1,6 +1,5 @@
 ---
 tags: [ai, mcp, recon, nodejs, servidor]
-status: done
 ---
 
 # server.js — recon-mcp

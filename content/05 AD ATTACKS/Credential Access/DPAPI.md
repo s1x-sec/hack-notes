@@ -1,6 +1,5 @@
 ---
 tags: [ad, dpapi, credential-access, domain-dominance, sharpdpapi]
-status: completo
 ---
 
 # DPAPI Backup Key

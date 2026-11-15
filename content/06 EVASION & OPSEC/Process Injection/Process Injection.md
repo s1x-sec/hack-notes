@@ -1,6 +1,5 @@
 ---
 tags: [opsec, evasion, process-injection, shellcode]
-status: done
 platform: windows
 ---
 

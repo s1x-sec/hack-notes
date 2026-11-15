@@ -1,6 +1,5 @@
 ---
 tags: [web, xxe, xxe-oob]
-status: done
 ---
 
 # XXE — XML External Entity

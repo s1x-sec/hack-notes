@@ -5,7 +5,6 @@ tags: [mobile, android, theory]
 
 # Teoría Android
 
-> [!important] Pendiente de documentar — añadir notas de teoría Android aquí.
 
 ## Temas a cubrir
 

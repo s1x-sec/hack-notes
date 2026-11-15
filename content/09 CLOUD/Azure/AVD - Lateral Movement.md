@@ -1,6 +1,5 @@
 ---
 tags: [cloud, azure, avd, lateral-movement, pivoting, imds]
-status: wip
 ---
 
 # AVD — Lateral Movement

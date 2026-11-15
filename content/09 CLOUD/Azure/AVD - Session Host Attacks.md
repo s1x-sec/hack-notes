@@ -1,6 +1,5 @@
 ---
 tags: [cloud, azure, avd, session-host, privesc, credential-harvesting]
-status: wip
 ---
 
 # AVD — Session Host Attacks

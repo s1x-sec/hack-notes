@@ -1,6 +1,5 @@
 ---
 tags: [mobile, android, adb]
-status: wip
 ---
 
 # Android

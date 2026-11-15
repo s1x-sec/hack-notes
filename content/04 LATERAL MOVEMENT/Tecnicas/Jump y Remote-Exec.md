@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, cobalt-strike, jump, remote-exec, psexec, winrm]
-status: done
 platform: windows
 ---
 

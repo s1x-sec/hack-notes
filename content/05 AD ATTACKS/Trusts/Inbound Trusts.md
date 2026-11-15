@@ -1,6 +1,5 @@
 ---
 tags: [ad, trusts, inbound-trust, inter-realm, foreignsecurityprincipal]
-status: completo
 ---
 
 # Inbound Trusts

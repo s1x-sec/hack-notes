@@ -1,6 +1,5 @@
 ---
 tags: [ad, adcs, esc4, privilege-escalation, acl, certificates]
-status: completo
 ---
 
 # ESC4 — Certificate Template Access Control

@@ -1,6 +1,5 @@
 ---
 tags: [ai, llm, mcp, prompt-injection]
-status: wip
 ---
 
 # AI & LLM SECURITY

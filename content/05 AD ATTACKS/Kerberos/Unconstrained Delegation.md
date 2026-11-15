@@ -1,6 +1,5 @@
 ---
 tags: [ad, kerberos, delegation]
-status: pendiente
 ---
 
 # Unconstrained Delegation

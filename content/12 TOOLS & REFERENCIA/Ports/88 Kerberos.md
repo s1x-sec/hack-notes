@@ -1,6 +1,5 @@
 ---
 tags: [ports, kerberos, ad]
-status: done
 ---
 
 # 88 — Kerberos

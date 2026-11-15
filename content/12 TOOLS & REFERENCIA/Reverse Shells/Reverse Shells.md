@@ -1,6 +1,5 @@
 ---
 tags: [tools, reverse-shell, penelope, rlwrap]
-status: done
 ---
 
 # Reverse Shells

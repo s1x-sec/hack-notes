@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, scshell, aggressor, custom]
-status: done
 platform: windows
 ---
 

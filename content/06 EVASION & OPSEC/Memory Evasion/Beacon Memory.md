@@ -1,6 +1,5 @@
 ---
 tags: [opsec, evasion, beacon, memory, module-stomping]
-status: done
 platform: windows
 ---
 

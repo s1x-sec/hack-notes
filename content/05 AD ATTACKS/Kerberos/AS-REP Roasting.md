@@ -1,6 +1,5 @@
 ---
 tags: [ad, kerberos, asrep-roasting, hashcat]
-status: done
 platform: windows
 ---
 

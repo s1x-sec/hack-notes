@@ -1,6 +1,5 @@
 ---
 tags: [opsec, evasion]
-status: done
 ---
 
 # EVASION & OPSEC

@@ -1,6 +1,5 @@
 ---
 tags: [web, ssti, rce]
-status: done
 ---
 
 # SSTI — Server-Side Template Injection

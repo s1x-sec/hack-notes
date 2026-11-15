@@ -1,6 +1,5 @@
 ---
 tags: [tools, powershell, obfuscation, amsi]
-status: done
 ---
 
 # Invoke-Obfuscation

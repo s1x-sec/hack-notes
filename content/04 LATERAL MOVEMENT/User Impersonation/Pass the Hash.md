@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, pth, ntlm, opsec]
-status: done
 platform: windows
 ---
 

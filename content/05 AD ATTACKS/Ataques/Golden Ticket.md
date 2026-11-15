@@ -1,6 +1,5 @@
 ---
 tags: [ad, kerberos, golden-ticket, ticket-forgery, domain-dominance]
-status: completo
 ---
 
 # Golden Ticket

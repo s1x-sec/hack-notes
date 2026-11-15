@@ -1,6 +1,5 @@
 ---
 tags: [c2, cobalt-strike, malleable, profile, opsec]
-status: wip
 ---
 
 # Malleable C2 Profile

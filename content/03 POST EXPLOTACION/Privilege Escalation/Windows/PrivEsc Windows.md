@@ -1,6 +1,5 @@
 ---
 tags: [privesc, windows]
-status: done
 platform: windows
 ---
 

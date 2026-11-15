@@ -1,6 +1,5 @@
 ---
 tags: [opsec, evasion, amsi, powershell, resource-kit]
-status: done
 platform: windows
 ---
 

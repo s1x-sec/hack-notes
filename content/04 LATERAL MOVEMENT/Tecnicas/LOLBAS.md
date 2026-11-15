@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, lolbas, dll-injection, lolbin]
-status: done
 platform: windows
 ---
 

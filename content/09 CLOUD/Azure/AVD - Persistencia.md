@@ -1,6 +1,5 @@
 ---
 tags: [cloud, azure, avd, persistence, fslogix]
-status: wip
 ---
 
 # AVD — Persistencia

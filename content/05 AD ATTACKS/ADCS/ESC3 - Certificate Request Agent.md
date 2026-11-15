@@ -1,6 +1,5 @@
 ---
 tags: [ad, adcs, esc3, privilege-escalation, certificates]
-status: completo
 ---
 
 # ESC3 — Misconfigured Certificate Request Agent Templates

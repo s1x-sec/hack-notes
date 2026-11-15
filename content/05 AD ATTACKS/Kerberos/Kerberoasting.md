@@ -1,6 +1,5 @@
 ---
 tags: [ad, kerberos, kerberoasting, hashcat]
-status: done
 platform: windows
 ---
 

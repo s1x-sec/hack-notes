@@ -1,6 +1,5 @@
 ---
 tags: [web, file-upload, rce]
-status: done
 ---
 
 # File Upload

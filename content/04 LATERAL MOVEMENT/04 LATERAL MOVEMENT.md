@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement]
-status: done
 ---
 
 # LATERAL MOVEMENT

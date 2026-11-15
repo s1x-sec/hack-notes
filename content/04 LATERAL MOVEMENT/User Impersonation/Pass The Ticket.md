@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, kerberos, ticket, rubeus, ptt]
-status: done
 platform: windows
 ---
 

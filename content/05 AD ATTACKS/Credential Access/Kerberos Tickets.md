@@ -1,6 +1,5 @@
 ---
 tags: [ad, kerberos, rubeus, tickets, credential-access]
-status: done
 platform: windows
 ---
 

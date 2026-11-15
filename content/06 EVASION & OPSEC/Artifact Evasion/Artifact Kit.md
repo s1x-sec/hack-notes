@@ -1,6 +1,5 @@
 ---
 tags: [opsec, evasion, artifact-kit, cobalt-strike, threatcheck]
-status: done
 platform: windows
 ---
 

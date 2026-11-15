@@ -1,6 +1,5 @@
 ---
 tags: [web, sqli, sqlmap, automatización]
-status: done
 ---
 
 # SQLMap — Automatización de SQL Injection

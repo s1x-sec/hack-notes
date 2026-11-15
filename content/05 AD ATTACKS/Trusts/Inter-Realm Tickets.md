@@ -1,6 +1,5 @@
 ---
 tags: [ad, trusts, kerberos, inter-realm]
-status: completo
 ---
 
 # Inter-Realm Tickets (Referral Tickets)

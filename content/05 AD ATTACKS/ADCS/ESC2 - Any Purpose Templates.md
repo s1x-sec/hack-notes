@@ -1,6 +1,5 @@
 ---
 tags: [ad, adcs, esc2, privilege-escalation, certificates]
-status: completo
 ---
 
 # ESC2 — Misconfigured Any Purpose Templates

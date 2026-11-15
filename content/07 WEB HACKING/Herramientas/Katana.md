@@ -1,6 +1,5 @@
 ---
 tags: [web, recon, crawling, katana]
-status: done
 ---
 
 # Katana — Crawler Web

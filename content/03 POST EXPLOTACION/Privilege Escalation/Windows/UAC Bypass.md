@@ -1,6 +1,5 @@
 ---
 tags: [privesc, windows, uac, bypass, red-team]
-status: done
 platform: windows
 ---
 

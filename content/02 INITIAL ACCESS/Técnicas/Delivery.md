@@ -1,6 +1,5 @@
 ---
 tags: [initial-access, delivery, cobalt-strike, html-smuggling]
-status: done
 platform: windows
 ---
 

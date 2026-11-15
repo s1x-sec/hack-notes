@@ -1,6 +1,5 @@
 ---
 tags: [web, xss]
-status: done
 ---
 
 # XSS — Cross-Site Scripting

@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, token, impersonation, cobalt-strike]
-status: done
 platform: windows
 ---
 

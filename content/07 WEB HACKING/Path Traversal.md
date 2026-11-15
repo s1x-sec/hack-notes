@@ -1,6 +1,5 @@
 ---
 tags: [web, path-traversal, lfi]
-status: done
 ---
 
 # Path Traversal / LFI

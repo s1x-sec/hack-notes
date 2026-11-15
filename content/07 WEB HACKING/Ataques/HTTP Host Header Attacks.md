@@ -1,6 +1,5 @@
 ---
 tags: [web, host-header, password-reset, cache-poisoning]
-status: done
 ---
 
 # HTTP Host Header Attacks

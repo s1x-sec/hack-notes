@@ -1,6 +1,5 @@
 ---
 tags: [initial-access, dropper, csharp, gadgettojscript, av-evasion]
-status: done
 platform: windows
 ---
 

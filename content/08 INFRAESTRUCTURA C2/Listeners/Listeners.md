@@ -1,6 +1,5 @@
 ---
 tags: [c2, cobalt-strike, listeners, http, smb, tcp]
-status: done
 ---
 
 # Listeners

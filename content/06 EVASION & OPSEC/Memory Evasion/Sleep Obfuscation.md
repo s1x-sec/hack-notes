@@ -1,6 +1,5 @@
 ---
 tags: [opsec, evasion, sleep-obfuscation, ekko, gargoyle, entropy]
-status: done
 platform: windows
 ---
 

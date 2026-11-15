@@ -1,6 +1,5 @@
 ---
 tags: []
-status: wip
 platform: 
 category: 
 ---

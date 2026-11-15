@@ -1,6 +1,5 @@
 ---
 tags: [ad, adcs, esc8, ntlm-relay, certificates]
-status: completo
 ---
 
 # ESC8 — NTLM Relay to ADCS HTTP Endpoints

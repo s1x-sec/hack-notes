@@ -1,6 +1,5 @@
 ---
 tags: [credential-access, lsass, mimikatz, opsec]
-status: done
 platform: windows
 ---
 

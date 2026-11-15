@@ -1,6 +1,5 @@
 ---
 tags: [ad, trusts, privilege-escalation, golden-ticket, diamond-ticket, sid-history]
-status: completo
 ---
 
 # Parent-Child Trusts

@@ -1,6 +1,5 @@
 ---
 tags: [web, deserializacion, rce]
-status: done
 ---
 
 # Deserialización

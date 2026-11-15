@@ -1,6 +1,5 @@
 ---
 tags: [ad, adcs, dpersist1, persistence, golden-certificate, certificates]
-status: completo
 ---
 
 # Golden Certificates — DPERSIST1

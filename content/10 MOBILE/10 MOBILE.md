@@ -1,6 +1,5 @@
 ---
 tags: [mobile]
-status: wip
 ---
 
 # MOBILE HACKING
@@ -11,10 +10,10 @@ status: wip
 
 ## Índice
 
-| Plataforma | Nota | Estado |
-|------------|------|--------|
-| Android | [[10-mobile/android\|Android]] | 🟡 Parcial |
-| iOS | [[10-mobile/ios\|iOS]] | 🔴 Vacío |
+| Plataforma | Nota |
+|------------|------|
+| Android | [[10-mobile/android\|Android]] |
+| iOS | [[10-mobile/ios\|iOS]] |
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 tags: [ad, adcs, certificates, esc]
-status: pendiente
 ---
 
 # ADCS — Introducción

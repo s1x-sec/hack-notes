@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, pivoting, socks, proxifier, cobalt-strike]
-status: done
 platform: windows
 ---
 

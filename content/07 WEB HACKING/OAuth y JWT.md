@@ -1,6 +1,5 @@
 ---
 tags: [web, oauth, jwt, auth]
-status: done
 ---
 
 # OAuth y JWT

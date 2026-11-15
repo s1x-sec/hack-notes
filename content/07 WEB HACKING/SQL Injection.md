@@ -1,6 +1,5 @@
 ---
 tags: [web, sqli]
-status: done
 ---
 
 # SQL Injection

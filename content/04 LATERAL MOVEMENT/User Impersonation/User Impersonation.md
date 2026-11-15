@@ -1,6 +1,5 @@
 ---
 tags: [lateral-movement, impersonation, token, access-token]
-status: done
 platform: windows
 ---
 

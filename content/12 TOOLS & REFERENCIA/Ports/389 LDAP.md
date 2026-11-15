@@ -1,6 +1,5 @@
 ---
 tags: [ports, ldap, ad]
-status: done
 ---
 
 # 389/636/3268/3269 — LDAP

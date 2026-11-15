@@ -1,6 +1,5 @@
 ---
 tags: [c2, cobalt-strike, infraestructura]
-status: done
 ---
 
 # INFRAESTRUCTURA C2

@@ -1,6 +1,5 @@
 ---
 tags: [c2, cobalt-strike, beacon, staged, stageless]
-status: done
 ---
 
 # Beacons — Tipos y Carga

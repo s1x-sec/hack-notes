@@ -1,6 +1,5 @@
 ---
 tags: [web]
-status: done
 ---
 
 # WEB HACKING

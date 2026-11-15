@@ -1,11 +1,9 @@
 ---
 tags: [cloud, aws]
-status: pendiente
 ---
 
 # AWS
 
-> 🔴 Por completar con experiencia de campo.
 
 ---
 

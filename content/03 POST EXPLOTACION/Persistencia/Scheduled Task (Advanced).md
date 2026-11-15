@@ -1,6 +1,5 @@
 ---
 tags: [persistence, windows, scheduled-task, crto]
-status: done
 platform: windows
 ---
 

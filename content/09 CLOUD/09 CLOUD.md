@@ -1,6 +1,5 @@
 ---
 tags: [cloud]
-status: pendiente
 ---
 
 # CLOUD HACKING
@@ -11,11 +10,11 @@ status: pendiente
 
 ## Índice
 
-| Plataforma | Nota | Estado |
-|------------|------|--------|
-| AWS | [[09-cloud/aws\|AWS]] | 🔴 Vacío |
-| Azure | [[09-cloud/azure\|Azure]] | 📝 Pendiente |
-| GCP | - | 🔴 No empezado |
+| Plataforma | Nota |
+|------------|------|
+| AWS | [[09-cloud/aws\|AWS]] |
+| Azure | [[09-cloud/azure\|Azure]] |
+| GCP | - |
 
 ---
 

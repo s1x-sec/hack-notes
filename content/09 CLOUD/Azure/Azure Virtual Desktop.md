@@ -1,6 +1,5 @@
 ---
 tags: [cloud, azure, avd, vdi, rdp]
-status: pendiente
 ---
 
 # Azure Virtual Desktop (AVD)
@@ -44,15 +43,15 @@ Usuario → AVD Web/App Client → AVD Gateway (Azure) → RDP Shortpath/Reverse
 
 ## Índice
 
-| Nota | Descripción | Estado |
-|------|-------------|--------|
-| [[09-cloud/azure/avd---enumeración\|AVD - Enumeración]] | Reconocimiento de infraestructura AVD | 📝 Pendiente |
-| [[09-cloud/azure/avd---acceso-inicial\|AVD - Acceso Inicial]] | Password spray, token theft, Conditional Access bypass | 📝 Pendiente |
-| [[09-cloud/azure/avd---session-host-attacks\|AVD - Session Host Attacks]] | Privesc, credential harvesting, LSASS en session hosts | 📝 Pendiente |
-| [[09-cloud/azure/avd---breakout\|AVD - Breakout]] | Escape de RemoteApp, kiosk, AppLocker | 📝 Pendiente |
-| [[09-cloud/azure/avd---lateral-movement\|AVD - Lateral Movement]] | Pivoting desde session hosts a Azure y red interna | 📝 Pendiente |
-| [[09-cloud/azure/avd---persistencia\|AVD - Persistencia]] | FSLogix abuse, startup scripts, scheduled tasks | 📝 Pendiente |
-| [[09-cloud/azure/avd---code-review-y-config-audit\|AVD - Code Review y Config Audit]] | Revisión de IaC, CA policies, FSLogix, RBAC, secrets | 📝 Pendiente |
+| Nota | Descripción |
+|------|-------------|
+| [[09-cloud/azure/avd---enumeración\|AVD - Enumeración]] | Reconocimiento de infraestructura AVD |
+| [[09-cloud/azure/avd---acceso-inicial\|AVD - Acceso Inicial]] | Password spray, token theft, Conditional Access bypass |
+| [[09-cloud/azure/avd---session-host-attacks\|AVD - Session Host Attacks]] | Privesc, credential harvesting, LSASS en session hosts |
+| [[09-cloud/azure/avd---breakout\|AVD - Breakout]] | Escape de RemoteApp, kiosk, AppLocker |
+| [[09-cloud/azure/avd---lateral-movement\|AVD - Lateral Movement]] | Pivoting desde session hosts a Azure y red interna |
+| [[09-cloud/azure/avd---persistencia\|AVD - Persistencia]] | FSLogix abuse, startup scripts, scheduled tasks |
+| [[09-cloud/azure/avd---code-review-y-config-audit\|AVD - Code Review y Config Audit]] | Revisión de IaC, CA policies, FSLogix, RBAC, secrets |
 
 ---
 

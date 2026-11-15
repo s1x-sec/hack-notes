@@ -1,6 +1,5 @@
 ---
 tags: [recon, osint]
-status: wip
 ---
 
 # RECON

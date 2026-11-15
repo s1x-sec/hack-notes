@@ -1,6 +1,5 @@
 ---
 tags: [ad, trusts, forest, domain]
-status: pendiente
 ---
 
 # Forest & Domain Trusts

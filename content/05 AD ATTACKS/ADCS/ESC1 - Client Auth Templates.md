@@ -1,6 +1,5 @@
 ---
 tags: [ad, adcs, esc1, privilege-escalation, certificates]
-status: completo
 ---
 
 # ESC1 — Misconfigured Client Authentication Templates

@@ -1,6 +1,5 @@
 ---
 tags: [cloud, azure, avd, breakout, applocker, remoteapp, kiosk]
-status: wip
 ---
 
 # AVD — Breakout

@@ -1,6 +1,5 @@
 ---
 tags: [opsec, evasion, ppid, process-creation, kernel]
-status: done
 platform: windows
 ---
 

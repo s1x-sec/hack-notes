@@ -1,6 +1,5 @@
 ---
 tags: [ad, kerberos, delegation, s4u, constrained-delegation]
-status: completo
 ---
 
 # Constrained Delegation

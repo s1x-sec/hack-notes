@@ -1,6 +1,5 @@
 ---
 tags: [web, recon, directorios, feroxbuster, fuzzing]
-status: done
 ---
 
 # feroxbuster — Fuerza Bruta de Directorios

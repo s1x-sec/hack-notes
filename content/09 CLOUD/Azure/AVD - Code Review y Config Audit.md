@@ -1,6 +1,5 @@
 ---
 tags: [cloud, azure, avd, code-review, config-audit, iac, whitebox]
-status: wip
 ---
 
 # AVD — Code Review y Config Audit

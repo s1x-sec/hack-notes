@@ -1,6 +1,5 @@
 ---
 tags: [opsec, evasion, ppid, spoofing, process]
-status: done
 platform: windows
 ---
 

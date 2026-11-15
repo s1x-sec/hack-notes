@@ -1,6 +1,5 @@
 ---
 tags: [ad, dcsync, credential-access, domain-dominance]
-status: completo
 ---
 
 # DCSync

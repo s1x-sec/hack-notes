@@ -1,6 +1,5 @@
 ---
 tags: [web, ssrf]
-status: done
 ---
 
 # SSRF — Server-Side Request Forgery

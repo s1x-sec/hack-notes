@@ -1,6 +1,5 @@
 ---
 tags: [ports, mssql, database, cobalt-strike, privesc]
-status: completo
 ---
 
 # 1433 — MSSQL

@@ -1,6 +1,5 @@
 ---
 tags: [web, recon, parametros, arjun]
-status: done
 ---
 
 # Arjun — Descubrimiento de Parámetros

@@ -1,6 +1,5 @@
 ---
 tags: [ports, smtp]
-status: done
 ---
 
 # 25 — SMTP
